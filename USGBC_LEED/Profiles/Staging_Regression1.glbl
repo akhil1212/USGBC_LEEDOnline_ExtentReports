@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging_Regression1</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'automationbdd4@gmail.com'</initValue>
+      <name>UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'initpass'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://leedonline-stg.usgbc.org'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BDD4 TestProject'</initValue>
+      <name>O_M_EB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/var/lib/jenkins/workspace/NewApproach_Parallel/USGBC_LEED/Include/TestData/DownloadedFiles\r\n'</initValue>
+      <name>DownloadPath_Server</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'H:\\USGBC_With_Negative\\USGBC_LEED\\Include\\TestData\\DownloadedFiles'</initValue>
+      <name>DownloadPath_Local</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>currentTestCaseId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

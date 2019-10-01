@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OM_ExistingBuildings" time="524" tests="0" failures="1" errors="0">
+   <testsuite name="TS_OM_ExistingBuildings" tests="0" failures="1" errors="0" time="524" timestamp="2019-08-05 11:36:46" hostname="Promantus Inc - G10PROLT021" id="Test Suites/TS_OM_ExistingBuildings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_113642"/>
+         <property name="logFiles" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_113642\\execution0.log"/>
+         <property name="attachments" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_113642\\1564985391781.png"/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="ca37c307ebab2193c9c55c0bf4a5ae2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_GreenCleaning" classname="Test Cases/OM_ExistingBuildings/TC_GreenCleaning" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)
+"/>
+         <system-out><![CDATA[2019-08-05 11:36:46 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_GreenCleaning: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)
+
+
+2019-08-05 11:36:47 - [TEST_STEP][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner): runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)
+
+
+2019-08-05 11:36:48 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 11:36:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 11:36:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-05 11:36:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-05 11:36:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 11:36:56 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 11:37:00 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 11:37:01 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-05 11:37:02 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 11:37:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:37:05 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 11:37:05 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 11:37:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 11:37:09 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 11:37:09 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 11:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 11:37:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:37:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:37:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:37:21 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 11:37:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:37:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:37:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:37:26 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 11:37:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:37:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:37:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:37:40 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 11:37:40 - [MESSAGE][PASSED] - Actual text 'Green Cleaning' and expected text 'Green Cleaning' are matched 
+
+2019-08-05 11:37:40 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 11:37:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:37:41 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:37:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:37:56 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 11:37:56 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:38:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:38:11 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 11:38:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:38:14 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:38:29 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:38:30 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 11:38:30 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:38:45 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:38:45 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 11:38:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:38:48 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:38:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:38:50 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 11:38:50 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:38:50 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:38:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:38:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:38:54 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 11:38:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:38:55 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:38:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:38:57 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 11:38:57 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:38:57 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:01 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 11:39:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:39:04 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' is set on object ''
+
+2019-08-05 11:39:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:06 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8'
+
+2019-08-05 11:39:06 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' are matched 
+
+2019-08-05 11:39:08 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' is set on object ''
+
+2019-08-05 11:39:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:10 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8'
+
+2019-08-05 11:39:10 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' are matched 
+
+2019-08-05 11:39:12 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' is set on object ''
+
+2019-08-05 11:39:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:14 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8'
+
+2019-08-05 11:39:14 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.RLZW8' are matched 
+
+2019-08-05 11:39:14 - [MESSAGE][PASSED] - Text '905' is set on object ''
+
+2019-08-05 11:39:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:16 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '905'
+
+2019-08-05 11:39:16 - [MESSAGE][PASSED] - Actual text '905' and expected text '905' are matched 
+
+2019-08-05 11:39:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:39:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:39:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='vdp-datepicker__calendar']//span[@class='cell day' and  text()='5'] | //div[@class='vdp-datepicker__calendar']//span[@class='cell day selected' and  text()='5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-05 11:39:52 - [MESSAGE][FAILED] - Unable to click on object ''
+[[ATTACHMENT|G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_113642\\1564985391781.png]]
+
+2019-08-05 11:39:52 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 11:39:52 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 11:39:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-05 11:39:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-05 11:39:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 11:39:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 11:40:00 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 11:40:00 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-05 11:40:01 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 11:40:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:40:04 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 11:40:04 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 11:40:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 11:40:08 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 11:40:08 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 11:40:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 11:40:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:40:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:40:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 11:40:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:40:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:40:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:40:30 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 11:40:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:40:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:40:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:40:49 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 11:40:49 - [MESSAGE][PASSED] - Actual text 'Green Cleaning' and expected text 'Green Cleaning' are matched 
+
+2019-08-05 11:40:49 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 11:40:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:40:50 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:41:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:41:05 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 11:41:05 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:41:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:41:20 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 11:41:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:41:23 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:41:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:41:38 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 11:41:38 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 11:41:53 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 11:41:53 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 11:41:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:41:56 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:41:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:41:58 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 11:41:58 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:41:58 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:42:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:02 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 11:42:02 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:42:03 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:42:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:05 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 11:42:05 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:42:05 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:42:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:09 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 11:42:09 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:42:11 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.XFG7I' is set on object ''
+
+2019-08-05 11:42:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:13 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.XFG7I'
+
+2019-08-05 11:42:13 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.XFG7I' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.XFG7I' are matched 
+
+2019-08-05 11:42:14 - [MESSAGE][PASSED] - Text '905' is set on object ''
+
+2019-08-05 11:42:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:16 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '905'
+
+2019-08-05 11:42:16 - [MESSAGE][PASSED] - Actual text '905' and expected text '905' are matched 
+
+2019-08-05 11:42:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:42:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 11:42:20 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-05 11:42:26 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 11:42:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:28 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 11:42:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:42:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 11:42:44 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 11:42:46 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 11:42:47 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 11:42:47 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.XFG7I'
+
+2019-08-05 11:42:47 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 11:42:47 - [MESSAGE][PASSED] - Text of object '' is: ''
+
+2019-08-05 11:42:47 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 11:42:48 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-08-05 11:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:42:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:42:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:42:59 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2019-08-05 11:43:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:43:07 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:43:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:12 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 11:43:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:43:21 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:43:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:26 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 11:43:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 11:43:36 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-05 11:43:36 - [MESSAGE][PASSED] - 
+
+2019-08-05 11:43:36 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:43:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 11:43:41 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-05 11:43:41 - [MESSAGE][PASSED] - 
+
+2019-08-05 11:43:41 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:43:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:43:51 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 11:43:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:43:56 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 11:43:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:44:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:05 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 11:44:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:44:10 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 11:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:44:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 11:44:20 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-05 11:44:20 - [MESSAGE][PASSED] - 
+
+2019-08-05 11:44:20 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 11:44:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 11:44:25 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-05 11:44:25 - [MESSAGE][PASSED] - 
+
+2019-08-05 11:44:25 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 11:44:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 11:44:33 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 11:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:44:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:44:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:44:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:44:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:45:00 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-05 11:45:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:45:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:45:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:45:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:45:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:45:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 11:45:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 11:45:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 11:45:28 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-05 11:45:28 - [MESSAGE][FAILED] - These following reason:
+ [Unable to click on object '']
+
+2019-08-05 11:45:28 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)
+)
+
+2019-08-05 11:45:28 - [MESSAGE][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-08-05 11:36:46 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_GreenCleaning: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-05 11:36:46 - [TEST_SUITE][FAILED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-08-05 11:36:46 - [TEST_SUITE][FAILED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564985202607.run(TempTestSuite1564985202607.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

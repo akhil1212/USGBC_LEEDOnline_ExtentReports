@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-08-02 16:16:05,2019-08-02 16:43:48,27m - 42.659s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_ProjectInformation,Chrome 75.0.3770.100,,2019-08-02 16:16:06,2019-08-02 16:34:58,18m - 52.516s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.ProjectInformationTestRunner),Chrome 75.0.3770.100,,2019-08-02 16:16:06,2019-08-02 16:34:58,18m - 51.969s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_PurchasingPolicy,Chrome 75.0.3770.100,,2019-08-02 16:34:58,2019-08-02 16:43:47,8m - 48.958s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.PurchasingPolicyTestRunner),Chrome 75.0.3770.100,,2019-08-02 16:34:58,2019-08-02 16:43:47,8m - 48.647s,PASSED

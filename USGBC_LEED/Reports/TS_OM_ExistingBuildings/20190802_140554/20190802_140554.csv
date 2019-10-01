@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-08-02 14:05:58,2019-08-02 14:22:15,16m - 17.424s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_RainwaterManagement,Chrome 75.0.3770.100,,2019-08-02 14:05:58,2019-08-02 14:22:14,16m - 16.174s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.RainwaterManagementTestRunner),Chrome 75.0.3770.100,,2019-08-02 14:05:59,2019-08-02 14:22:14,16m - 15.514s,PASSED

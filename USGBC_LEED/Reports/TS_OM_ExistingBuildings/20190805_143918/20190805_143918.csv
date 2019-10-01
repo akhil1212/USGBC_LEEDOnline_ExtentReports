@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-08-05 14:39:22,2019-08-05 14:49:38,10m - 16.208s,FAILED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_GreenCleaning,Chrome 75.0.3770.100,,2019-08-05 14:39:22,2019-08-05 14:49:37,10m - 15.068s,FAILED
+runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner),Chrome 75.0.3770.100,,2019-08-05 14:39:23,2019-08-05 14:49:37,10m - 14.411s,FAILED

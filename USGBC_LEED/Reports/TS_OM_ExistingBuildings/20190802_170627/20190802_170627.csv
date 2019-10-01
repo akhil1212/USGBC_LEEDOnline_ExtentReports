@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-08-02 17:06:31,2019-08-02 17:46:32,40m - 1.763s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_GreenCleaningPolicy,Chrome 75.0.3770.100,,2019-08-02 17:06:31,2019-08-02 17:27:11,20m - 40.038s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningPolicyTestRunner),Chrome 75.0.3770.100,,2019-08-02 17:06:32,2019-08-02 17:27:11,20m - 39.450s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_LightPollutionReduction,Chrome 75.0.3770.100,,2019-08-02 17:27:11,2019-08-02 17:46:32,19m - 20.592s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.LightPollutionReductionTestRunner),Chrome 75.0.3770.100,,2019-08-02 17:27:11,2019-08-02 17:46:32,19m - 20.329s,PASSED

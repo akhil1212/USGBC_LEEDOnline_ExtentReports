@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OM_ExistingBuildings" time="977" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OM_ExistingBuildings" tests="1" failures="0" errors="0" time="977" timestamp="2019-08-02 14:05:58" hostname="Promantus Inc - G10PROLT021" id="Test Suites/TS_OM_ExistingBuildings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190802_140554"/>
+         <property name="logFiles" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190802_140554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="bc38403f53df25f5279c76f5167a24be"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_RainwaterManagement" classname="Test Cases/OM_ExistingBuildings/TC_RainwaterManagement" status="PASSED">
+         <system-out><![CDATA[2019-08-02 14:05:58 - [TEST_CASE][PASSED] - Test Cases/OM_ExistingBuildings/TC_RainwaterManagement: Test Cases/OM_ExistingBuildings/TC_RainwaterManagement
+
+2019-08-02 14:05:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(runner_OM_ExistingBuildings.RainwaterManagementTestRunner): Run with 'runner_OM_ExistingBuildings.RainwaterManagementTestRunner' was passed
+
+2019-08-02 14:06:00 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-02 14:06:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:06:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-02 14:06:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-02 14:06:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-02 14:06:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-02 14:06:12 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-02 14:06:12 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-02 14:06:12 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-02 14:06:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:06:16 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-02 14:06:16 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-02 14:06:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:06:20 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-02 14:06:20 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:06:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-02 14:06:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:06:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:06:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:06:34 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-02 14:06:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:06:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:06:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:06:39 - [MESSAGE][PASSED] - Text of object '' is: 'Rainwater Management'
+
+2019-08-02 14:06:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:06:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:06:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:06:51 - [MESSAGE][PASSED] - Text of object '' is: 'Rainwater Management'
+
+2019-08-02 14:06:51 - [MESSAGE][PASSED] - Actual text 'Rainwater Management' and expected text 'Rainwater Management' are matched 
+
+2019-08-02 14:06:51 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-02 14:06:51 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:06:58 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:06:59 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:06:59 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:06 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:06 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:07:09 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:16 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:16 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:07:16 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:23 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:23 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:07:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:07:26 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:33 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:33 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:07:33 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:40 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:40 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:07:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:07:43 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:50 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:50 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:07:50 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:07:57 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:07:57 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:08:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:08:00 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:08:07 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:08:07 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:08:07 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:08:14 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:08:14 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:08:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:08:18 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:08:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:22 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-02 14:08:22 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:08:22 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:08:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:24 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-02 14:08:24 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:08:24 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:08:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:28 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-02 14:08:28 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:08:29 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:08:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:31 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-02 14:08:31 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:08:31 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:08:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:35 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-02 14:08:35 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:08:35 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:08:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:37 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-02 14:08:37 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:08:37 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:08:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:41 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-02 14:08:41 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:08:41 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:08:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:43 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-02 14:08:43 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:08:44 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:08:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:48 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-02 14:08:48 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:08:48 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:08:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:50 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-02 14:08:50 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:08:52 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' is set on object ''
+
+2019-08-02 14:08:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:54 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W'
+
+2019-08-02 14:08:54 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' are matched 
+
+2019-08-02 14:08:56 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' is set on object ''
+
+2019-08-02 14:08:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:08:58 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W'
+
+2019-08-02 14:08:58 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W' are matched 
+
+2019-08-02 14:08:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:09:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:09:02 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-02 14:09:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-02 14:09:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:09:10 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-02 14:09:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:09:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-02 14:09:27 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-02 14:09:28 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:28 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:28 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:29 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:29 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:29 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W'
+
+2019-08-02 14:09:29 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:29 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W'
+
+2019-08-02 14:09:30 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.F716W'
+
+2019-08-02 14:09:30 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-02 14:09:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-08-02 14:09:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:09:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:09:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:09:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:09:41 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2019-08-02 14:09:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:09:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:09:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:09:49 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:09:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:09:54 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:09:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:09:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:10:03 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:10:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:08 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:10:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:10:18 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:10:18 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:10:18 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:10:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:10:23 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:10:23 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:10:23 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:10:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:10:33 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:10:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:38 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:10:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:10:47 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:10:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:10:52 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:10:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:10:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:11:02 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:11:02 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:11:02 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:11:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:11:07 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:11:07 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:11:07 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:11:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:11:17 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:11:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:22 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:11:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:11:31 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:11:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:37 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:11:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:11:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:11:47 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:11:47 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:11:47 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:11:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:11:52 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:11:52 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:11:52 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:11:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:11:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:12:01 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:12:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:06 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:12:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:12:15 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:12:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:20 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:12:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:12:30 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:12:30 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:12:30 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:12:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:12:35 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:12:35 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:12:35 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:12:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:12:45 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-02 14:12:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:50 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:12:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:12:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:12:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:12:59 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-02 14:13:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:13:04 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-02 14:13:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:13:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:13:14 - [MESSAGE][PASSED] - COO_1.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:13:14 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:13:14 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-02 14:13:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-02 14:13:19 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/Personal/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-02 14:13:19 - [MESSAGE][PASSED] - 
+
+2019-08-02 14:13:19 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-02 14:13:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:13:27 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-02 14:13:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:13:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:13:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:13:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:13:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:13:55 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[5]' is not present after '2' second(s)
+
+2019-08-02 14:13:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:22 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[4]' is not present after '2' second(s)
+
+2019-08-02 14:14:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:14:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:50 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-02 14:14:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:14:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:14:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:15:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:15:18 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-02 14:15:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:15:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:15:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:15:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:15:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:15:46 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-02 14:15:46 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-02 14:15:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:15:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-02 14:15:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-02 14:15:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-02 14:15:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-02 14:15:57 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-02 14:15:58 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-02 14:15:58 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-02 14:16:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:16:01 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-02 14:16:01 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-02 14:16:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:16:05 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-02 14:16:05 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:16:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-02 14:16:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:16:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:16:17 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-08-02 14:16:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:16:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:16:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:16:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:16:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:16:27 - [MESSAGE][PASSED] - Text of object '' is: 'Rainwater Management'
+
+2019-08-02 14:16:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:16:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:16:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:16:40 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.MURID' is set on object ''
+
+2019-08-02 14:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:16:42 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.MURID'
+
+2019-08-02 14:16:42 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.MURID' and expected text 'Because I see the mind is the most important.MURID' are matched 
+
+2019-08-02 14:16:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-02 14:16:52 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft'
+
+2019-08-02 14:16:52 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' are not matched 
+
+2019-08-02 14:17:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-02 14:17:02 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft'
+
+2019-08-02 14:17:02 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' and expected text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' are matched 
+
+2019-08-02 14:17:02 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:09 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:09 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:17:09 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:16 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:16 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:17:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:17:19 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:26 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:26 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:17:27 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:34 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:34 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:17:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:17:37 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:44 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:44 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:17:44 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:17:51 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:17:51 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:17:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:17:54 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:18:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:18:01 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:18:01 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:18:08 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:18:08 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:18:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:18:11 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:18:18 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:18:18 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-02 14:18:18 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-02 14:18:25 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-02 14:18:25 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-02 14:18:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:18:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-02 14:18:38 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft'
+
+2019-08-02 14:18:38 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' and expected text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' are matched 
+
+2019-08-02 14:18:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:18:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:18:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:18:41 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-02 14:18:41 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:18:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-02 14:18:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-02 14:18:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-02 14:18:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-02 14:18:50 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-02 14:18:50 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-02 14:18:50 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-02 14:18:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:18:53 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-02 14:18:53 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-02 14:18:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:18:57 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-02 14:18:57 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-02 14:18:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-02 14:19:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:13 - [MESSAGE][PASSED] - Text of object '' is: 'Rainwater Management'
+
+2019-08-02 14:19:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-02 14:19:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:19:23 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-02 14:19:23 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft'
+
+2019-08-02 14:19:23 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' and expected text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' are matched 
+
+2019-08-02 14:19:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:19:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:19:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:19:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:19:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:19:55 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[5]' is not present after '2' second(s)
+
+2019-08-02 14:19:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:23 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[4]' is not present after '2' second(s)
+
+2019-08-02 14:20:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:51 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-02 14:20:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:20:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:20:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:21:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:21:18 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-02 14:21:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:21:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:21:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:21:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:21:46 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-02 14:21:46 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '3' second(s)
+
+2019-08-02 14:21:46 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //div[contains(text(),'Form drafted and not yet saved!')]' is not present after '2' second(s)
+
+2019-08-02 14:21:47 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.CQ7XS' is set on object ''
+
+2019-08-02 14:21:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:21:49 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.CQ7XS'
+
+2019-08-02 14:21:49 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.CQ7XS' and expected text 'Because I see the mind is the most important.CQ7XS' are matched 
+
+2019-08-02 14:21:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-02 14:21:59 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 02 Aug 2019 02:21:53 PM  Clear draft'
+
+2019-08-02 14:21:59 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 02 Aug 2019 02:16:45 PM  Clear draft' and expected text 'Last draft saved on: 02 Aug 2019 02:21:53 PM  Clear draft' are not matched 
+
+2019-08-02 14:22:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:22:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-02 14:22:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-02 14:22:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-02 14:22:10 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '2' second(s)
+
+2019-08-02 14:22:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-02 14:22:14 - [MESSAGE][PASSED] - Run with 'runner_OM_ExistingBuildings.RainwaterManagementTestRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-02 14:05:58 - [TEST_SUITE][PASSED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_RainwaterManagement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

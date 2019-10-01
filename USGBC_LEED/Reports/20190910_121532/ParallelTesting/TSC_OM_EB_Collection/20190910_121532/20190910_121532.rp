@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190910_121532</name>
+   <tag></tag>
+   <displayName>20190910_121532</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20190910_121532/ParallelTesting/TS_OM_EB_part1/20190910_121532</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>Staging</profileName>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20190910_121532/ParallelTesting/TS_OM_EB_part2/20190910_121537</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>Stagingdev</profileName>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

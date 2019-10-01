@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="18" tests="0" failures="0" errors="0">
+   <testsuite name="Demo" tests="0" failures="0" errors="0" time="18" timestamp="2019-08-07 11:39:13" hostname="promantusinc - promantusinc-ThinkPad-L450" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/promantusinc/Desktop/Latest With negative/USGBC_NewApproach_with_Negative/USGBC_LEED/Reports/Demo/20190807_113902"/>
+         <property name="logFiles" value="/home/promantusinc/Desktop/Latest With negative/USGBC_NewApproach_with_Negative/USGBC_LEED/Reports/Demo/20190807_113902/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantusinc - promantusinc-ThinkPad-L450"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="4ccfa1090e0dffd732afb4dcc5efbb3e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_SiteManagement" classname="Test Cases/OM_ExistingBuildings/TC_SiteManagement" status="INCOMPLETE">
+         <system-out><![CDATA[2019-08-07 11:39:14 - [TEST_CASE][INCOMPLETE] - Test Cases/OM_ExistingBuildings/TC_SiteManagement: null
+
+2019-08-07 11:39:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-07 11:39:14 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-07 11:39:14 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-07 11:39:14 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-07 11:39:14 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-07 11:39:14 - [TEST_STEP][INCOMPLETE] - runWithCucumberRunner(runner_OM_ExistingBuildings.SiteManagementTestRunner): null
+
+2019-08-07 11:39:16 - [TEST_CASE][INCOMPLETE] - Test Cases/TC_Login: null
+
+2019-08-07 11:39:16 - [TEST_STEP][INCOMPLETE] - runWithCucumberRunner(common.LoginRunner): Delayed 5 second(s)
+
+2019-08-07 11:39:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-07 11:39:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-07 11:39:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-07 11:39:18 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-07 11:39:19 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-07 11:39:20 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-07 11:39:20 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-07 11:39:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 11:39:23 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-07 11:39:23 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-07 11:39:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 11:39:27 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-07 11:39:32 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[2019-08-07 11:39:14 - [TEST_CASE][INCOMPLETE] - Test Cases/OM_ExistingBuildings/TC_SiteManagement: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-07 11:39:13 - [TEST_SUITE][INCOMPLETE] - Demo: null]]></system-out>
+      <system-err><![CDATA[2019-08-07 11:39:13 - [TEST_SUITE][INCOMPLETE] - Demo: null]]></system-err>
+   </testsuite>
+</testsuites>

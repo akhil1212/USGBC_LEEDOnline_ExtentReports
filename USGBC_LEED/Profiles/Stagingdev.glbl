@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Stagingdev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'srimalladidev@usgbc.org'</initValue>
+      <name>UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'green123'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://leedonline-dev.usgbc.org/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test 4.1 OM EB'</initValue>
+      <name>O_M_EB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/var/lib/jenkins/workspace/LEEDOnlineDevelopment/USGBC_LEED/Include/TestData/DownloadedFiles'</initValue>
+      <name>DownloadPath_Server</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED\\Include\\TestData\\DownloadedFiles'</initValue>
+      <name>DownloadPath_Local</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>currentTestCaseId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

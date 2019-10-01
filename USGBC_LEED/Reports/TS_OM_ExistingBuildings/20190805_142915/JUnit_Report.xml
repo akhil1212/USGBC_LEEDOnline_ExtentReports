@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OM_ExistingBuildings" time="439" tests="0" failures="1" errors="0">
+   <testsuite name="TS_OM_ExistingBuildings" tests="0" failures="1" errors="0" time="439" timestamp="2019-08-05 14:29:19" hostname="Promantus Inc - G10PROLT021" id="Test Suites/TS_OM_ExistingBuildings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_142915"/>
+         <property name="logFiles" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_142915\\execution0.log"/>
+         <property name="attachments" value="G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_142915\\1564995989215.png"/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="c825e60cc088765aae788b1cd7100184"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_GreenCleaning" classname="Test Cases/OM_ExistingBuildings/TC_GreenCleaning" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)
+"/>
+         <system-out><![CDATA[2019-08-05 14:29:19 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_GreenCleaning: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)
+
+
+2019-08-05 14:29:19 - [TEST_STEP][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner): runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)
+
+
+2019-08-05 14:29:21 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 14:29:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 14:29:22 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 14:29:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-05 14:29:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 14:29:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 14:29:31 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 14:29:31 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-05 14:29:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 14:29:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:29:35 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 14:29:35 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 14:29:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 14:29:39 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 14:29:39 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 14:29:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 14:29:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:29:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:29:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:29:49 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 14:29:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:29:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:29:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:29:54 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 14:29:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:30:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:30:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 14:30:08 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 14:30:08 - [MESSAGE][PASSED] - Actual text 'Green Cleaning' and expected text 'Green Cleaning' are matched 
+
+2019-08-05 14:30:08 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 14:30:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:30:09 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:30:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:30:24 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 14:30:24 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:30:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:30:39 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 14:30:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:30:42 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:30:57 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:30:57 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 14:30:57 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:31:12 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:31:12 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 14:31:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:31:15 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 14:31:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:17 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 14:31:17 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 14:31:18 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 14:31:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:22 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 14:31:22 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 14:31:22 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 14:31:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:24 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 14:31:24 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 14:31:24 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 14:31:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:28 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 14:31:28 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 14:31:31 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' is set on object ''
+
+2019-08-05 14:31:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:33 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV'
+
+2019-08-05 14:31:33 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' are matched 
+
+2019-08-05 14:31:35 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' is set on object ''
+
+2019-08-05 14:31:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:37 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV'
+
+2019-08-05 14:31:37 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' are matched 
+
+2019-08-05 14:31:39 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' is set on object ''
+
+2019-08-05 14:31:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:41 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV'
+
+2019-08-05 14:31:41 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.IDBTV' are matched 
+
+2019-08-05 14:31:41 - [MESSAGE][PASSED] - Text '905' is set on object ''
+
+2019-08-05 14:31:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:43 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '905'
+
+2019-08-05 14:31:43 - [MESSAGE][PASSED] - Actual text '905' and expected text '905' are matched 
+
+2019-08-05 14:31:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:31:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:31:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:31:49 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Aug 2019'
+
+2019-08-05 14:31:49 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Aug 2019'
+
+2019-08-05 14:31:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:31:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 14:31:54 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-05 14:32:00 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 14:32:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:32:02 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 14:32:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:32:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 14:32:18 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 14:32:18 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 14:32:18 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 14:32:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-05 14:32:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 14:32:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 14:32:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 14:32:42 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 14:32:42 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-05 14:32:42 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 14:32:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:32:46 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 14:32:46 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 14:32:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 14:32:50 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 14:32:50 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 14:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 14:32:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:33:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:33:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:33:06 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 14:33:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:33:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:33:12 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 14:33:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:35:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Text of object '' is: 'Green Cleaning'
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Actual text 'Green Cleaning' and expected text 'Green Cleaning' are matched 
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 14:35:07 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:35:22 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:35:22 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 14:35:23 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:35:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:35:38 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 14:35:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:35:41 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:35:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:35:56 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 14:35:56 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 14:36:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-05 14:36:11 - [MESSAGE][PASSED] - File 'G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 14:36:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 14:36:14 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 14:36:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:16 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 14:36:16 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 14:36:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 14:36:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:20 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 14:36:20 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 14:36:20 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 14:36:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:22 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 14:36:22 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 14:36:22 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 14:36:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 14:36:27 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 14:36:27 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 14:36:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//iframe[contains(@class, "cke_wysiwyg_frame")])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-05 14:36:37 - [MESSAGE][FAILED] - Unable to verify image '' present
+[[ATTACHMENT|G:\\Sabareesh\\Personal\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\TS_OM_ExistingBuildings\\20190805_142915\\1564995989215.png]]
+
+2019-08-05 14:36:38 - [MESSAGE][FAILED] - These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+
+2019-08-05 14:36:38 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)
+)
+
+2019-08-05 14:36:38 - [MESSAGE][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.GreenCleaningTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-08-05 14:29:19 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_GreenCleaning: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-05 14:29:19 - [TEST_SUITE][FAILED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-08-05 14:29:19 - [TEST_SUITE][FAILED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_GreenCleaning FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [G:\Sabareesh\Personal\USGBC_NewApproach1\USGBC_LEED\Include\TestData\DownloadedFiles\creditForm.pdf (The system cannot find the file specified), Unable to verify image '' present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GreenCleaning.run(TC_GreenCleaning:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564995555637.run(TempTestSuite1564995555637.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

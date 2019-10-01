@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OM_ExistingBuildings" time="50" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OM_ExistingBuildings" tests="1" failures="0" errors="0" time="50" timestamp="2019-08-19 15:41:56" hostname="Group10 - Group10-PC" id="Test Suites/FunctionalTesting/TS_OM_ExistingBuildings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED\\Reports\\FunctionalTesting\\TS_OM_ExistingBuildings\\20190819_154149"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED\\Reports\\FunctionalTesting\\TS_OM_ExistingBuildings\\20190819_154149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="192.168.1.34"/>
+         <property name="sessionId" value="63c8f87e7b3671b58aaa17cb97c55457"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-08-19 15:41:58 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-19 15:41:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-19 15:41:58 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-19 15:41:58 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-19 15:41:58 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-19 15:41:58 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-19 15:41:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerLogin): Run with 'common.runnerLogin' was passed
+
+2019-08-19 15:42:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-19 15:42:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-19 15:42:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-19 15:42:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-19 15:42:26 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-19 15:42:27 - [MESSAGE][PASSED] - Text 'automationbdd9@gmail.com' is set on object ''
+
+2019-08-19 15:42:27 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-19 15:42:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-19 15:42:30 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-19 15:42:30 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-19 15:42:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-19 15:42:34 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-19 15:42:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-19 15:42:42 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-19 15:42:42 - [MESSAGE][PASSED] - Run with 'common.runnerLogin' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-19 15:41:56 - [TEST_SUITE][PASSED] - TS_OM_ExistingBuildings: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

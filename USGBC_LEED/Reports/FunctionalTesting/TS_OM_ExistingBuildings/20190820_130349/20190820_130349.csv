@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,,,2019-08-20 13:03:53,2019-08-20 13:03:57,3.867s,FAILED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_SiteManagement,,,2019-08-20 13:03:55,2019-08-20 13:03:57,2.040s,FAILED
+Start listener action : sampleBeforeTestCase,,,2019-08-20 13:03:55,2019-08-20 13:03:55,0.256s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.runnerSiteManagement),,,2019-08-20 13:03:55,2019-08-20 13:03:57,1.345s,FAILED

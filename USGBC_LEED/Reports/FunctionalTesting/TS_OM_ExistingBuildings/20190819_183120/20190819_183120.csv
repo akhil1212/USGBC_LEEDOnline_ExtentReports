@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 76.0.3809.100,,2019-08-19 18:31:26,2019-08-19 18:32:13,46.994s,PASSED
+,,,,,,
+Test Cases/TC_Login,Chrome 76.0.3809.100,,2019-08-19 18:31:28,2019-08-19 18:32:09,40.768s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,2019-08-19 18:31:28,2019-08-19 18:31:28,0.239s,PASSED
+runWithCucumberRunner(common.runnerLogin),Chrome 76.0.3809.100,,2019-08-19 18:31:29,2019-08-19 18:32:09,39.839s,PASSED

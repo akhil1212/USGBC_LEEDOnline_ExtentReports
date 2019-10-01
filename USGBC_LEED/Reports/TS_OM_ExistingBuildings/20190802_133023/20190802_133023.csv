@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-08-02 13:30:26,2019-08-02 14:02:54,32m - 27.406s,FAILED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_FacilityMaintenanceandRenovationPolicy,Chrome 75.0.3770.100,,2019-08-02 13:30:27,2019-08-02 13:39:35,9m - 7.775s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.FacilityMaintenanceandRenovationPolicyTestRunner),Chrome 75.0.3770.100,,2019-08-02 13:30:28,2019-08-02 13:39:35,9m - 7.008s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_IntegratedPestManagement,Chrome 75.0.3770.100,,2019-08-02 13:39:35,2019-08-02 14:02:52,23m - 17.583s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.IntegratedPestManagementTestRunner),Chrome 75.0.3770.100,,2019-08-02 13:39:35,2019-08-02 14:02:52,23m - 17.313s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_RainwaterManagement,Chrome 75.0.3770.100,,2019-08-02 14:02:52,2019-08-02 14:02:53,0.489s,FAILED
+runWithCucumberRunner(runner_OM_ExistingBuildings.RainwaterManagementTestRunner),Chrome 75.0.3770.100,,2019-08-02 14:02:53,2019-08-02 14:02:53,0.215s,FAILED

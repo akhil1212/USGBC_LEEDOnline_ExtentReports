@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo1,Chrome 75.0.3770.100,,,2019-08-07 12:12:57,2019-08-07 12:21:47,8m - 50.782s,FAILED
+,,,,,,,
+Test Cases/OM_ExistingBuildings/TC_FacilityMaintenanceandRenovationPolicy,Chrome 75.0.3770.100,,,2019-08-07 12:12:57,2019-08-07 12:21:47,8m - 50.337s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-08-07 12:12:57,2019-08-07 12:12:57,0.262s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.FacilityMaintenanceandRenovationPolicyTestRunner),Chrome 75.0.3770.100,,,2019-08-07 12:12:58,2019-08-07 12:21:47,8m - 49.797s,FAILED

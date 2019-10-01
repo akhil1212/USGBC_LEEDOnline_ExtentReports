@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.142,,,2019-08-06 15:55:31,2019-08-06 15:56:02,31.270s,FAILED
+,,,,,,,
+Test Cases/OM_ExistingBuildings/TC_GridHarmonization,Chrome 75.0.3770.142,,,2019-08-06 15:55:31,2019-08-06 15:56:01,29.268s,FAILED
+runWithCucumberRunner(runner_OM_ExistingBuildings.GridHarmonizationTestRunner),Chrome 75.0.3770.142,,,2019-08-06 15:55:32,2019-08-06 15:56:01,28.286s,FAILED

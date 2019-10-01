@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OM_ExistingBuildings" time="1709" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OM_ExistingBuildings" tests="1" failures="0" errors="0" time="1709" timestamp="2019-08-20 10:36:27" hostname="Group10 - Group10-PC" id="Test Suites/FunctionalTesting/TS_OM_ExistingBuildings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED\\Reports\\FunctionalTesting\\TS_OM_ExistingBuildings\\20190820_103615"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED\\Reports\\FunctionalTesting\\TS_OM_ExistingBuildings\\20190820_103615\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_37_26_IST_2019.png, C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_40_39_IST_2019.png, C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_40_40_IST_2019.png, C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_56_33_IST_2019.png, C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_11_03_34_IST_2019.png"/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="192.168.1.34"/>
+         <property name="sessionId" value="a82d5d8c96d01962d7410ac4fc71cc68"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_SiteManagement" classname="Test Cases/OM_ExistingBuildings/TC_SiteManagement" status="PASSED">
+         <system-out><![CDATA[2019-08-20 10:36:30 - [TEST_CASE][PASSED] - Test Cases/OM_ExistingBuildings/TC_SiteManagement: Test Cases/OM_ExistingBuildings/TC_SiteManagement
+
+2019-08-20 10:36:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-20 10:36:30 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-20 10:36:30 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-20 10:36:30 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-20 10:36:30 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-20 10:36:31 - [TEST_STEP][PASSED] - runWithCucumberRunner(runner_OM_ExistingBuildings.runnerSiteManagement): Run with 'runner_OM_ExistingBuildings.runnerSiteManagement' was passed
+
+2019-08-20 10:36:33 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-20 10:36:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerLogin): Run with 'common.runnerLogin' was passed
+
+2019-08-20 10:36:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-20 10:36:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-20 10:37:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-20 10:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-20 10:37:08 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-20 10:37:10 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-08-20 10:37:10 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-20 10:37:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:37:13 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-20 10:37:14 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-20 10:37:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 10:37:18 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-20 10:37:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:37:23 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 10:37:23 - [MESSAGE][PASSED] - Run with 'common.runnerLogin' was passed
+
+2019-08-20 10:37:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-20 10:37:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:37:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_37_26_IST_2019.png]]
+
+2019-08-20 10:37:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:37:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:37:35 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-20 10:37:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:37:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:37:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:37:41 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-20 10:37:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:37:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:37:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:37:59 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:38:14 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:38:14 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:38:14 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:38:29 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:38:29 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:38:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:38:32 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:38:47 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:38:47 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:38:47 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:39:02 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:39:02 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:39:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:39:06 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:39:21 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:39:21 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:39:21 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:39:36 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:39:36 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:39:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:39:39 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:39:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:42 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-20 10:39:42 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:39:42 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:39:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:46 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-20 10:39:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:39:46 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:39:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:48 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-20 10:39:48 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:39:48 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:39:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:52 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-20 10:39:52 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:39:53 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:39:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:55 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-20 10:39:55 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:39:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:39:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:39:59 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-20 10:39:59 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:40:02 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.68BPB' is set on object ''
+
+2019-08-20 10:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:40:04 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.68BPB'
+
+2019-08-20 10:40:04 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.68BPB' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.68BPB' are matched 
+
+2019-08-20 10:40:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:40:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 10:40:08 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-20 10:40:14 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-20 10:40:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:40:16 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 10:40:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:40:32 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:40:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-20 10:40:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_40_39_IST_2019.png]]
+
+2019-08-20 10:40:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_40_40_IST_2019.png]]
+
+2019-08-20 10:40:51 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-08-20 10:40:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:40:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:40:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:41:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:41:05 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2019-08-20 10:41:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:41:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:41:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:41:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:41:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:41:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:41:44 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:42:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-08-20 10:42:29 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2019-08-20 10:42:59 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-08-20 10:43:34 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2019-08-20 10:44:14 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2019-08-20 10:44:59 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2019-08-20 10:45:49 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2019-08-20 10:46:44 - [MESSAGE][PASSED] - Delayed 55 second(s)
+
+2019-08-20 10:47:44 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2019-08-20 10:48:49 - [MESSAGE][PASSED] - Delayed 65 second(s)
+
+2019-08-20 10:49:59 - [MESSAGE][PASSED] - Delayed 70 second(s)
+
+2019-08-20 10:50:00 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:50:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:50:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:50:15 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:50:21 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:50:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:50:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:50:31 - [MESSAGE][PASSED] - COO_1.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:50:31 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:50:31 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:50:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:50:36 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:50:36 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:50:36 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:50:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:50:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:50:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:50:51 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:50:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:51:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:51:21 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:51:26 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:51:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:51:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:51:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:51:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:51:40 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:51:45 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:51:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:51:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:51:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:51:56 - [MESSAGE][PASSED] - COO_1.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:51:56 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:51:56 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:51:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:52:01 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:52:01 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:52:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:52:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:52:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:52:15 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-20 10:52:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:52:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:52:35 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:52:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:52:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:52:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:52:49 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-20 10:52:54 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-20 10:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:53:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:53:05 - [MESSAGE][PASSED] - COO_1.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:53:05 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:53:05 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-20 10:53:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 10:53:10 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/DownloadedFiles and was deleted
+
+2019-08-20 10:53:10 - [MESSAGE][PASSED] - 
+
+2019-08-20 10:53:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-20 10:53:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:53:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:53:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:53:27 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 10:53:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:53:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:53:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:53:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:53:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:54:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:54:15 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-20 10:54:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:54:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:54:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:54:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:54:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:54:58 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-20 10:55:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:55:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:55:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:55:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:55:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:55:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:55:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:55:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:55:26 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-20 10:55:26 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-20 10:55:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerLogin): Run with 'common.runnerLogin' was passed
+
+2019-08-20 10:55:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-20 10:55:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-20 10:55:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-20 10:55:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-20 10:55:59 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-20 10:56:00 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-08-20 10:56:00 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-20 10:56:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:56:03 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-20 10:56:04 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-20 10:56:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 10:56:08 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-20 10:56:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:56:25 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 10:56:25 - [MESSAGE][PASSED] - Run with 'common.runnerLogin' was passed
+
+2019-08-20 10:56:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-20 10:56:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:56:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_10_56_33_IST_2019.png]]
+
+2019-08-20 10:56:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:56:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:56:39 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-08-20 10:56:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:56:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:56:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:56:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:56:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:56:50 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-20 10:56:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:57:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:57:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 10:57:06 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.61NE8' is set on object ''
+
+2019-08-20 10:57:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:57:08 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.61NE8'
+
+2019-08-20 10:57:08 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.61NE8' and expected text 'Because I see the mind is the most important.61NE8' are matched 
+
+2019-08-20 10:57:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:57:18 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft'
+
+2019-08-20 10:57:18 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' are not matched 
+
+2019-08-20 10:57:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:57:28 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft'
+
+2019-08-20 10:57:28 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' and expected text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' are matched 
+
+2019-08-20 10:57:29 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:57:44 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:57:44 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:57:44 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:57:59 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:57:59 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:58:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:58:02 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:58:17 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:58:17 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:58:17 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:58:32 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:58:32 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:58:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:58:35 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:58:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:58:50 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-20 10:58:50 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 10:59:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-08-20 10:59:06 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\updatecode\USGBC_With_Negative\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-20 10:59:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 10:59:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 10:59:19 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft'
+
+2019-08-20 10:59:19 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' and expected text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' are matched 
+
+2019-08-20 10:59:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:59:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 10:59:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 10:59:28 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-20 10:59:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerLogin): Run with 'common.runnerLogin' was passed
+
+2019-08-20 10:59:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-20 10:59:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-20 10:59:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-20 10:59:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-20 11:00:23 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-20 11:00:24 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-08-20 11:00:24 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-20 11:00:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 11:00:27 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-20 11:00:27 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-20 11:00:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:00:32 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-20 11:00:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:00:37 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 11:00:37 - [MESSAGE][PASSED] - Run with 'common.runnerLogin' was passed
+
+2019-08-20 11:00:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-20 11:00:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:00:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:00:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:00:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:00:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:00:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:00:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:00:49 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-20 11:00:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 11:00:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:01:02 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 11:01:02 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft'
+
+2019-08-20 11:01:02 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' and expected text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' are matched 
+
+2019-08-20 11:01:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:01:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:01:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:01:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:01:34 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-20 11:01:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:01:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:01:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:01:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:02:02 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-20 11:02:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:02:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:02:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:02:30 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-20 11:02:30 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '3' second(s)
+
+2019-08-20 11:02:30 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //div[contains(text(),'Form drafted and not yet saved!')]' is not present after '2' second(s)
+
+2019-08-20 11:02:31 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.D6ZF8' is set on object ''
+
+2019-08-20 11:02:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:33 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.D6ZF8'
+
+2019-08-20 11:02:33 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.D6ZF8' and expected text 'Because I see the mind is the most important.D6ZF8' are matched 
+
+2019-08-20 11:02:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-20 11:02:43 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 20 Aug 2019 11:02:37 AM  Clear draft'
+
+2019-08-20 11:02:43 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 20 Aug 2019 10:57:12 AM  Clear draft' and expected text 'Last draft saved on: 20 Aug 2019 11:02:37 AM  Clear draft' are not matched 
+
+2019-08-20 11:02:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:02:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:02:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:02:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:02:54 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '2' second(s)
+
+2019-08-20 11:02:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:02:58 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-20 11:02:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerLogin): Run with 'common.runnerLogin' was passed
+
+2019-08-20 11:03:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-20 11:03:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-20 11:03:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-20 11:03:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-20 11:03:18 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-20 11:03:18 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-08-20 11:03:19 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-20 11:03:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 11:03:22 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-20 11:03:22 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-20 11:03:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-20 11:03:26 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-20 11:03:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:03:32 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-20 11:03:32 - [MESSAGE][PASSED] - Run with 'common.runnerLogin' was passed
+
+2019-08-20 11:03:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-20 11:03:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:03:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Group10\\Desktop\\updatecode\\USGBC_With_Negative\\USGBC_LEED//screenshots//Tue_Aug_20_11_03_34_IST_2019.png]]
+
+2019-08-20 11:03:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:03:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:03:40 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-20 11:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 11:03:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:03:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:03:45 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-20 11:03:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-20 11:03:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:03:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:03:58 - [MESSAGE][PASSED] - Text of object '' is cleared
+
+2019-08-20 11:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:04:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:01 - [MESSAGE][PASSED] - Text 'Please fix the highlighted errors.' is present on page 
+
+2019-08-20 11:04:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-20 11:04:06 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:10 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 11:04:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:11 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/NegativeFiles/24MBfile1.doc' sent to object: ''
+
+2019-08-20 11:04:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:04:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:14 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-08-20 11:04:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:19 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:25 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 11:04:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:26 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/NegativeFiles/24MBfile1.doc' sent to object: ''
+
+2019-08-20 11:04:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:04:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:29 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-08-20 11:04:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:33 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:38 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:38 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-20 11:04:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:39 - [MESSAGE][PASSED] - File 'C:/Users/Group10/Desktop/updatecode/USGBC_With_Negative/USGBC_LEED/Include/TestData/NegativeFiles/24MBfile1.doc' sent to object: ''
+
+2019-08-20 11:04:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-20 11:04:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-20 11:04:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:43 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-08-20 11:04:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-20 11:04:53 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-08-20 11:04:53 - [MESSAGE][PASSED] - Run with 'runner_OM_ExistingBuildings.runnerSiteManagement' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-20 10:36:27 - [TEST_SUITE][PASSED] - TS_OM_ExistingBuildings: Test Cases/OM_ExistingBuildings/TC_SiteManagement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
