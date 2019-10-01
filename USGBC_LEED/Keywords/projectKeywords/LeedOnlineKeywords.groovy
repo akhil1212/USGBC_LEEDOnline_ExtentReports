@@ -1733,6 +1733,7 @@ class LeedOnlineKeywords {
 ////		return dest;
 //		return screenshotFile
 //	}
+	@Keyword
 	public static String takeScreenshot(final RemoteWebDriver webDriver) {
 		Date d = new Date();
 		String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
