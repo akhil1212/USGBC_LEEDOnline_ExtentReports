@@ -101,7 +101,7 @@ class loginStepDefinition {
 //			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 
-			WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
+			WebUI.navigateToUrl(GlobalVariable.URL)
 
 			loginfo= extent.createTest(Feature.class,"Login to USGBC Leed Online Page");
 			loginfo=loginfo.createNode(Scenario.class,"User will login to leed online and navigate to credit page");
@@ -141,7 +141,7 @@ class loginStepDefinition {
 			WebUI.delay(3)
 			TestObject agreementObject = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.agreement)
 			WebUI.scrollToElement(agreementObject,30)
-			WebUI.check(agreementObject)
+//			WebUI.check(agreementObject)
 			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").pass("pass");
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));

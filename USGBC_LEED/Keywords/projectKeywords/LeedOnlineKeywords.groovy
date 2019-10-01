@@ -1722,8 +1722,8 @@ class LeedOnlineKeywords {
 	def public String takeScreenshot(ExtentTest loginfo) {
 		Date d = new Date();
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "\\screenshots\\" + screenshotFile)
-		println "dest---->"+ System.getProperty("user.dir") + "\\screenshots\\"
+		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/screenshots/" + screenshotFile)
+		println "dest---->"+ System.getProperty("user.dir") + "/screenshots/"
 		WebDriver driver=DriverFactory.getWebDriver()
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
