@@ -112,7 +112,7 @@ class loginStepDefinition {
 			loginfo.assignCategory("Login")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 
@@ -130,7 +130,7 @@ class loginStepDefinition {
 			WebUI.setText(passwordObj, GlobalVariable.Password)
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -144,7 +144,7 @@ class loginStepDefinition {
 //			WebUI.check(agreementObject)
 			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -158,7 +158,7 @@ class loginStepDefinition {
 			WebUI.submit(loginButton)
 			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -188,7 +188,7 @@ class loginStepDefinition {
 
 			loginfo.createNode(new GherkinKeyword("Then"), "User will be logged in successfully").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("then"), "User will be logged in successfully").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("then"), "User will be logged in successfully").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
