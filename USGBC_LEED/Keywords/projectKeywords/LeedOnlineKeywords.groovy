@@ -1722,7 +1722,7 @@ class LeedOnlineKeywords {
 	def public String takeScreenshot(ExtentTest loginfo) {
 		Date d = new Date();
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-		String dest=WebUI.takeScreenshot("/var/lib/jenkins/workspace/LEEDOnline_Development/USGBC_LEED/ExtentReport/Chrome_Report" + "/screenshots/" + screenshotFile)
+		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/screenshots/" + screenshotFile)
 		println "dest---->"+ System.getProperty("user.dir") + "/screenshots/"
 		WebDriver driver=DriverFactory.getWebDriver()
 		TakesScreenshot screen =(TakesScreenshot) driver;
@@ -1730,8 +1730,8 @@ class LeedOnlineKeywords {
 
 		File target = new File(dest);
 		FileUtils.copyFile(src,target);
-		return dest;
-
+//		return dest;
+return screenshotFile
 	}
 
 
