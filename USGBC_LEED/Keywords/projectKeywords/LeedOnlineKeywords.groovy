@@ -1730,7 +1730,8 @@ class LeedOnlineKeywords {
 
 		File target = new File(dest);
 		FileUtils.copyFile(src,target);
-		return dest;
+//		return dest;
+		return target.getName()
 
 	}
 	
