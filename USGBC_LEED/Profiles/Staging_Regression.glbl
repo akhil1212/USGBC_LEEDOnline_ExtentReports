@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/var/lib/jenkins/workspace/Test_NewApproach_Parallel/USGBC_LEED/Include/TestData/DownloadedFiles'</initValue>
+      <initValue>'/var/lib/jenkins/workspace/LEEDOnline_Development/USGBC_LEED/Include/TestData/DownloadedFiles'</initValue>
       <name>DownloadPath_Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -32,12 +32,12 @@ import internal.GlobalVariable
 public class entities {
 
 	//Login
-	//static String accountdev ="//*[@id='load-menu']"
+	static String accountdev ="//*[@id='load-menu']"
 	static String userName = "//input[@type='text']"
 	static String password = "//input[@type='password']"
 	static String agreement = "//input[@type='checkbox' and @name='agree']"
 	static String loginButton = "//fieldset//button[@type='submit']"
-	//static String loginButtondev = "//input[@type='submit']"
+	static String loginButtondev = "//input[@type='submit']"
 	static String creditsBtn = "//a[normalize-space()='Credits']"
 	static String projectName = "//a[normalize-space()='"//BDD6 TestProject']"
 

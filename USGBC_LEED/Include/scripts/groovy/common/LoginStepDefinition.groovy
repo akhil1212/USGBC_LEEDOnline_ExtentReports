@@ -97,9 +97,8 @@ class loginStepDefinition {
 			WebUI.maximizeWindow()
 
 			RemoteWebDriver driver = DriverFactory.getWebDriver()
-			//String DownloadPath = "/var/lib/jenkins/workspace/LeedOnline_NewApproach/Usgbc_LeedOnline/Include/TestData/DownloadedFiles"
-			//String downloadPath = "C:/Users/Group10/Desktop/jar/Usgbc_LeedOnline/Include/TestData/DownloadedFiles"
-			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
+			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
+//			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 
 			WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
@@ -123,10 +122,10 @@ class loginStepDefinition {
 	public void user_enters_the_username_and_password() {
 		try{
 
-			//	TestObject account = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.accountdev)
+				TestObject account = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.accountdev)
 			TestObject userNameObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.userName)
 			TestObject passwordObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.password)
-			//	WebUI.click(account)
+				WebUI.click(account)
 			WebUI.setText(userNameObj, GlobalVariable.UserName)
 			WebUI.setText(passwordObj, GlobalVariable.Password)
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").pass("pass");
@@ -155,7 +154,7 @@ class loginStepDefinition {
 	public void user_clicks_on_LOG_IN_button() {
 		try{
 			WebUI.delay(4)
-			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
+			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
 			WebUI.submit(loginButton)
 			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").pass("pass");
 		} catch   (Exception e){
