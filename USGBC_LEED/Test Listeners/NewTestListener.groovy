@@ -84,7 +84,7 @@ class NewTestListener {
 		htmlReporter1.config().setDocumentTitle("Extent Report"); // Tile of report
 		htmlReporter1.config().setReportName("Functional Testing"); // Name of the report
 		htmlReporter1.config().setTheme(Theme.DARK);
-		
+		htmlReporter1.config().setAutoCreateRelativePathMedia(true);
 		extent.attachReporter(htmlReporter1);
 //		htmlReporter1.setAppendExisting(true);
 		
