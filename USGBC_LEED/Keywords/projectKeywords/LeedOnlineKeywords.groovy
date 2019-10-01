@@ -1736,9 +1736,9 @@ class LeedOnlineKeywords {
 		Date d = new Date();
 				String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
 				File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
-				String screenShotsDirectory=System.getProperty("user.dir")+"/ExtentReport/Chrome_Report/screenshots"
+				String screenShotsDirectory=RunConfiguration.getProjectDir()+"/ExtentReport/Chrome_Report/screenshots/"
 				File targetFile = new File(screenShotsDirectory, imageName);
-		
+		println "screenShotsDirectory : "+screenShotsDirectory
 					FileUtils.copyFile(screenshotFile, targetFile);
 		
 				return targetFile.getName();
