@@ -92,7 +92,7 @@ class NewTestListener {
 		// Passing General information
 		extent.setSystemInfo("Host name", "localhost");
 		extent.setSystemInfo("Environemnt", "QA");
-		extent.setSystemInfo("user", "sainath");
+		extent.setSystemInfo("user", "Promantus");
 		browserName= new LeedOnlineKeywords().getBrowserName()
 		extent.setSystemInfo("Browser",browserName);
 		
