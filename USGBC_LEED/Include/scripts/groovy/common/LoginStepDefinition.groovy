@@ -125,7 +125,7 @@ class loginStepDefinition {
 			TestObject account = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.accountdev)
 			TestObject userNameObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.userName)
 			TestObject passwordObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.password)
-				WebUI.click(account)
+		//	WebUI.click(account)
 			WebUI.setText(userNameObj, GlobalVariable.UserName)
 			WebUI.setText(passwordObj, GlobalVariable.Password)
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").pass("pass");
@@ -141,7 +141,7 @@ class loginStepDefinition {
 			WebUI.delay(3)
 			TestObject agreementObject = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.agreement)
 			WebUI.scrollToElement(agreementObject,30)
-			//			WebUI.check(agreementObject)
+						WebUI.check(agreementObject)
 			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").pass("pass");
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("And"), "User has to accept end user license agreement").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
