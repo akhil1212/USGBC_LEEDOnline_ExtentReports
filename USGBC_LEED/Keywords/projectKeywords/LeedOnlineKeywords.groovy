@@ -1730,7 +1730,7 @@ class LeedOnlineKeywords {
 		//
 		//		File target = new File(dest);
 		//		FileUtils.copyFile(src,target);
-		////		return dest;
+		//		return dest;
 		//		return target.getName()
 //
 //		Date d = new Date();
@@ -1744,14 +1744,16 @@ class LeedOnlineKeywords {
 //		return targetFile.getName();
 		Date d = new Date();
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-		String dest=WebUI.takeScreenshot("/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/" + screenshotFile)
-		println "dest---->"+"/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/"
+		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+		
+		//String dest=WebUI.takeScreenshot("/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/" + screenshotFile)
+		//println "dest---->"+"/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/"
+		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
 		WebDriver driver=DriverFactory.getWebDriver()
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
-
-		//File target = new File(dest);
-	//	FileUtils.copyFile(src,target);
+		File target = new File(dest);
+		FileUtils.copyFile(src,target);
 		return dest;
 	}
 
