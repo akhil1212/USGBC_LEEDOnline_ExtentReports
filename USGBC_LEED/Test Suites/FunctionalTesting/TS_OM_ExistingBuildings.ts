@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>9974f974-ec22-4d4f-98a0-2742cf01af41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_MinimumIndoorAirQuality</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -133,7 +133,7 @@
    <testCaseLink>
       <guid>35d2ac88-00a6-452b-8e4a-2e08fb679f46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
