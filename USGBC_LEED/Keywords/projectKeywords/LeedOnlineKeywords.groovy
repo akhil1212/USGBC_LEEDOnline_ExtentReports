@@ -1754,7 +1754,7 @@ class LeedOnlineKeywords {
 		File src =screen.getScreenshotAs(OutputType.FILE);
 		File target = new File(dest);
 		FileUtils.copyFile(src,target);
-		return target.getName()
+		return "screenshots/"+target.getName()
 	}
 
 	//	@Keyword
