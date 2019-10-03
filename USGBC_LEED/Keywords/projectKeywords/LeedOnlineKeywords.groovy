@@ -1750,8 +1750,8 @@ class LeedOnlineKeywords {
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
 
-		File target = new File(dest);
-		FileUtils.copyFile(src,target);
+		//File target = new File(dest);
+	//	FileUtils.copyFile(src,target);
 		return dest;
 	}
 
