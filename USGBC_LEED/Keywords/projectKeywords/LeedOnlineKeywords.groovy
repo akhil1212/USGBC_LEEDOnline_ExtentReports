@@ -1744,8 +1744,8 @@ class LeedOnlineKeywords {
 //		return targetFile.getName();
 		Date d = new Date();
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") +  "/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/screenshots" + screenshotFile)
-		println "dest---->"+ System.getProperty("user.dir") + "/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/screenshots"
+		String dest=WebUI.takeScreenshot("/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/screenshots" + screenshotFile)
+		println "dest---->"+"/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/screenshots"
 		WebDriver driver=DriverFactory.getWebDriver()
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);

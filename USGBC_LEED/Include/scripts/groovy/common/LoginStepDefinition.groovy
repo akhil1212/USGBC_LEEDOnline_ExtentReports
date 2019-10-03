@@ -125,7 +125,7 @@ class loginStepDefinition {
 			TestObject account = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.accountdev)
 			TestObject userNameObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.userName)
 			TestObject passwordObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.password)
-			WebUI.click(account)
+		//	WebUI.click(account)
 			WebUI.setText(userNameObj, GlobalVariable.UserName)
 			WebUI.setText(passwordObj, GlobalVariable.Password)
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").pass("pass");
@@ -154,7 +154,7 @@ class loginStepDefinition {
 	public void user_clicks_on_LOG_IN_button() {
 		try{
 			WebUI.delay(4)
-			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
+			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
 			WebUI.submit(loginButton)
 			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").pass("pass");
 		} catch   (Exception e){
