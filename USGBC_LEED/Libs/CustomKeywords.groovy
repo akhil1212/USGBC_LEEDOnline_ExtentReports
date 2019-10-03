@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.HttpCommandExecutor
 
 import org.openqa.selenium.remote.SessionId
 
-import com.aventstack.extentreports.ExtentTest
+import org.openqa.selenium.remote.RemoteWebDriver
 
 
 def static "projectKeywords.LeedOnlineKeywords.navigateToForm"(
@@ -329,9 +329,9 @@ def static "projectKeywords.LeedOnlineKeywords.getBrowserName"() {
 }
 
 def static "projectKeywords.LeedOnlineKeywords.takeScreenshot"(
-    	ExtentTest loginfo	) {
+    	RemoteWebDriver webDriver	) {
     (new projectKeywords.LeedOnlineKeywords()).takeScreenshot(
-        	loginfo)
+        	webDriver)
 }
 
 def static "projectKeywords.LeedOnlineKeywords.click_pdf_Icon"() {

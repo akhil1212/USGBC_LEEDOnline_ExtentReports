@@ -1720,49 +1720,59 @@ class LeedOnlineKeywords {
 
 	@Keyword
 	def public String takeScreenshot(final RemoteWebDriver webDriver) {
-//		Date d = new Date();
-//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
-//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"
-//		WebDriver driver=DriverFactory.getWebDriver()
-//		TakesScreenshot screen =(TakesScreenshot) driver;
-//		File src =screen.getScreenshotAs(OutputType.FILE);
+		//		Date d = new Date();
+		//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+		//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+		//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"
+		//		WebDriver driver=DriverFactory.getWebDriver()
+		//		TakesScreenshot screen =(TakesScreenshot) driver;
+		//		File src =screen.getScreenshotAs(OutputType.FILE);
+		//
+		//		File target = new File(dest);
+		//		FileUtils.copyFile(src,target);
+		////		return dest;
+		//		return target.getName()
 //
-//		File target = new File(dest);
-//		FileUtils.copyFile(src,target);
-////		return dest;
-//		return target.getName()
-		
+//		Date d = new Date();
+//		String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+//		File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
+//		String screenShotsDirectory=RunConfiguration.getProjectDir()+"/ExtentReport/Chrome_Report/screenshots/"
+//		File targetFile = new File(screenShotsDirectory, imageName);
+//		println "screenShotsDirectory : "+screenShotsDirectory
+//		FileUtils.copyFile(screenshotFile, targetFile);
+//
+//		return targetFile.getName();
 		Date d = new Date();
-				String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-				File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
-				String screenShotsDirectory=RunConfiguration.getProjectDir()+"/ExtentReport/Chrome_Report/screenshots/"
-				File targetFile = new File(screenShotsDirectory, imageName);
-		println "screenShotsDirectory : "+screenShotsDirectory
-					FileUtils.copyFile(screenshotFile, targetFile);
-		
-				return targetFile.getName();
+		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "\\screenshots\\" + screenshotFile)
+		println "dest---->"+ System.getProperty("user.dir") + "\\screenshots\\"
+		WebDriver driver=DriverFactory.getWebDriver()
+		TakesScreenshot screen =(TakesScreenshot) driver;
+		File src =screen.getScreenshotAs(OutputType.FILE);
 
+		File target = new File(dest);
+		FileUtils.copyFile(src,target);
+		return dest;
 	}
-	
-//	@Keyword
-//	def public String takeScreenshot(ExtentTest loginfo) {
-//		Date d = new Date();
-//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"+screenshotFile)
-//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots"
-//		WebDriver driver=DriverFactory.getWebDriver()
-//		TakesScreenshot screen =(TakesScreenshot) driver;
-//		File src =screen.getScreenshotAs(OutputType.FILE);
-//
-//		File target = new File(dest);
-//		FileUtils.copyFile(src,target);
-//		//		return dest;
-//		//		return screenshotFile
-//		println "target name"+target.getName()
-//		return target.getName()
-//	}
-	
+
+	//	@Keyword
+	//	def public String takeScreenshot(ExtentTest loginfo) {
+	//		Date d = new Date();
+	//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+	//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"+screenshotFile)
+	//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots"
+	//		WebDriver driver=DriverFactory.getWebDriver()
+	//		TakesScreenshot screen =(TakesScreenshot) driver;
+	//		File src =screen.getScreenshotAs(OutputType.FILE);
+	//
+	//		File target = new File(dest);
+	//		FileUtils.copyFile(src,target);
+	//		//		return dest;
+	//		//		return screenshotFile
+	//		println "target name"+target.getName()
+	//		return target.getName()
+	//	}
+
 	//	@Keyword
 	//	public static String takeScreenshot(final RemoteWebDriver webDriver) {
 	//		Date d = new Date();

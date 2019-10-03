@@ -51,6 +51,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import projectKeywords.LeedOnlineKeywords
 import org.openqa.selenium.remote.RemoteWebDriver
 import org.openqa.selenium.Capabilities
+
 class NewTestListener {
 	static ExtentHtmlReporter htmlReporter1;
 	static ExtentReports extent = commonReports.extent;
