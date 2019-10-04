@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>2bbbcf62-496d-4e7a-8fd7-7f82869437ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_PurchasingPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>

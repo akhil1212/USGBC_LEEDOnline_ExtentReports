@@ -109,7 +109,7 @@ class loginStepDefinition {
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").pass("pass");
 
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Login")
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"Login")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());

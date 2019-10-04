@@ -115,7 +115,7 @@ class leedCommonStepDefnition {
 
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory("Form")
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"Form")
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
