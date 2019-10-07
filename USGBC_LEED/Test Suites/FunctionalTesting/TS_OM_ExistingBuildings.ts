@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>2d23ece4-d080-4655-aefd-b96eab57237e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaning</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42e6bb51-5d9c-42d3-8f4a-9b56c092a49b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices</testCaseId>
    </testCaseLink>
    <testCaseLink>
