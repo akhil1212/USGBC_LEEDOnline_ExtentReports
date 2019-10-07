@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'H:\\Git Projects\\LEEDOnlineDev\\LEEDOnlineDev\\USGBC_LEED\\Include\\TestData\\DownloadedFiles'</initValue>
+      <initValue>'H:\\Git Projects\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEED\\Include\\TestData\\DownloadedFiles'</initValue>
       <name>DownloadPath_Local</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
