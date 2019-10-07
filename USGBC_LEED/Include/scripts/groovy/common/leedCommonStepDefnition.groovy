@@ -110,8 +110,8 @@ class leedCommonStepDefnition {
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
-			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId+"-positiveFlow");
+			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+"-positiveFlow");
 
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for positiveFlow").pass("pass");
 			Assert.assertTrue(true);
@@ -136,8 +136,8 @@ class leedCommonStepDefnition {
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
-			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId+"-AutoSave");
+			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+'-AutoSave');
 			
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").pass("pass");
 
@@ -163,8 +163,8 @@ class leedCommonStepDefnition {
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
-			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId+"-Negative");
+			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+"-Negative");
 			
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").pass("pass");
 
@@ -176,6 +176,7 @@ class leedCommonStepDefnition {
 
 		}
 	}
+	
 	@And("User navigates to the credits page of the project")
 	public void user_navigates_to_the_credits_page_of_the_project() {
 		try{
@@ -188,7 +189,6 @@ class leedCommonStepDefnition {
 
 		}
 	}
-
 
 
 	@And("User should be on form (.*)")
@@ -664,7 +664,6 @@ class leedCommonStepDefnition {
 			println "******strDate*********"+strDate
 
 			SimpleDateFormat sdfrmt = new SimpleDateFormat("dd MMM yyyy");
-
 
 			Date javaDate = sdfrmt.parse(strDate);
 
