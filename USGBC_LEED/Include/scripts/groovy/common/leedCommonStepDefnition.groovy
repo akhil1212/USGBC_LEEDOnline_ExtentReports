@@ -113,12 +113,12 @@ class leedCommonStepDefnition {
 			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
 			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
 
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").pass("pass");
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for positiveFlow").pass("pass");
 			Assert.assertTrue(true);
-			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"Form")
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"-positiveFlow")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for positiveFlow").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -136,10 +136,16 @@ class leedCommonStepDefnition {
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").pass("pass");
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
+			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
+			
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").pass("pass");
 
+			Assert.assertTrue(true);
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"-AutoSave")
+			
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -157,11 +163,16 @@ class leedCommonStepDefnition {
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").pass("pass");
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
+			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId);
+			
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").pass("pass");
+
 			Assert.assertTrue(true);
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"-Negative")
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
 		}
 	}
@@ -238,12 +249,7 @@ class leedCommonStepDefnition {
 			boolean isVersion = WebUI.verifyTextPresent("(V01)", false)
 
 			println "Is version v01 present "+isVersion
-			//			logger = extent.startTest(GlobalVariable.currentTestCaseId);
-			//			Assert.assertTrue(true);
-			//
-			//			browserName = new LeedOnlineKeywords().getBrowserName()
-			//
-			//			logger.assignCategory(GlobalVariable.currentTestCaseId+" - "+browserName);
+			
 			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
