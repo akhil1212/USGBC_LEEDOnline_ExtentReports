@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>42e6bb51-5d9c-42d3-8f4a-9b56c092a49b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>2bbbcf62-496d-4e7a-8fd7-7f82869437ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_PurchasingPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
