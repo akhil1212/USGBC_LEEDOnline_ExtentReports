@@ -42,6 +42,7 @@ Feature: Heat Island Reduction Form - LEED v4.1 O+M: EB
     And User downloads the uploaded files and verifies
     And User clicks on cancel while deleting the uploaded file and verifies the files are retained
     And User deletes the uploaded files and verifies the files are deleted
+And User logout the form
 
     Examples: 
       | formname              | ratingSystem | tableName                            | testData                         | isAddRow | tableName1                                | testData1                             | isAddRow1 | tableName2                         | testData2                      | isAddRow2 |
@@ -66,6 +67,7 @@ Feature: Heat Island Reduction Form - LEED v4.1 O+M: EB
     And User verifies clear draft,warning message is not present
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User clicks on clear draft and verifies the draft is not present
+And User logout the form
 
     Examples: 
       | formname              | ratingSystem | tableName                            | testData                         | isAddRow | tableName1                                | testData1                             | isAddRow1 | tableName2                         | testData2                      | isAddRow2 |
@@ -83,6 +85,7 @@ Feature: Heat Island Reduction Form - LEED v4.1 O+M: EB
     And User enters data to text box with number and verifies the value present is not same
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+And User logout the form
 
     Examples: 
       | formname              | ratingSystem | fileName1     | fileName      |
