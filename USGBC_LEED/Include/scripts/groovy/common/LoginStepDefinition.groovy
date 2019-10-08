@@ -98,7 +98,7 @@ class loginStepDefinition {
 
 			RemoteWebDriver driver = DriverFactory.getWebDriver()
 			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
-//			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
+			//			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 
 			WebUI.navigateToUrl(GlobalVariable.URL)
@@ -155,7 +155,7 @@ class loginStepDefinition {
 		try{
 			WebUI.delay(4)
 			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
-//			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
+			//			TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
 			WebUI.submit(loginButton)
 			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").pass("pass");
 		} catch   (Exception e){
@@ -182,7 +182,8 @@ class loginStepDefinition {
 
 				WebUI.delay(6)
 				println "########--Completed waiting 60 sec's---########"
-				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
+				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
+//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
 				WebUI.submit(btnObj)
 				println "########--Clicking the btn---########"
 			}

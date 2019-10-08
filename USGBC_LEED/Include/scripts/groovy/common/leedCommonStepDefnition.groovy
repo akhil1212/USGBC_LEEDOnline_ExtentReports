@@ -138,12 +138,12 @@ class leedCommonStepDefnition {
 
 			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId+"-AutoSave");
 			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+'-AutoSave');
-			
+
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").pass("pass");
 
 			Assert.assertTrue(true);
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"-AutoSave")
-			
+
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
 
@@ -165,7 +165,7 @@ class leedCommonStepDefnition {
 
 			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId+"-Negative");
 			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+"-Negative");
-			
+
 			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").pass("pass");
 
 			Assert.assertTrue(true);
@@ -176,7 +176,7 @@ class leedCommonStepDefnition {
 
 		}
 	}
-	
+
 	@And("User navigates to the credits page of the project")
 	public void user_navigates_to_the_credits_page_of_the_project() {
 		try{
@@ -249,7 +249,7 @@ class leedCommonStepDefnition {
 			boolean isVersion = WebUI.verifyTextPresent("(V01)", false)
 
 			println "Is version v01 present "+isVersion
-			
+
 			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
@@ -1873,5 +1873,27 @@ class leedCommonStepDefnition {
 
 		}
 
+	}
+
+	@And("User logout the form")
+	public void user_logout_the_form(){
+		try{
+			TestObject account=new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.account,true)
+
+			println "################################ Before Clicking Account"
+			WebUI.click(account)
+			println "################################ After Clicking Account"
+
+			TestObject signOut=new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.signOut,true)
+			println "################################ Before Clicking Signout"
+			WebUI.click(signOut)
+			println "################################ After Clicking Signout"
+			WebUI.delay(2)
+
+			loginfo.createNode(new GherkinKeyword("And"), "User logout the form").pass("pass");
+		} catch   (Exception e){
+			loginfo.createNode(new GherkinKeyword("And"), "User logout the form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot(loginfo));
+
+		}
 	}
 }

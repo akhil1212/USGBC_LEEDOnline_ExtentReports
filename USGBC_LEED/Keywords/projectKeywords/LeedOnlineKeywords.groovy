@@ -5,8 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -59,12 +57,9 @@ import org.apache.poi.hssf.usermodel.HSSFSheet
 import org.apache.poi.hssf.usermodel.HSSFWorkbook
 import org.apache.poi.hssf.util.CellReference
 
-
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.Sheet
 import org.apache.poi.ss.usermodel.Row
-
-
 
 import org.apache.http.entity.StringEntity
 import org.openqa.selenium.remote.HttpCommandExecutor
@@ -84,7 +79,6 @@ import org.openqa.selenium.chrome.ChromeDriverService
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.json.Json
 
-
 import org.apache.http.client.utils.URIBuilder
 import org.apache.http.impl.client.CloseableHttpClient
 import org.apache.http.impl.client.HttpClients
@@ -100,9 +94,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.openqa.selenium.TakesScreenshot;
 
-
 import java.lang.reflect.Field
-
 
 import java.io.File;
 import java.io.IOException;
@@ -131,6 +123,12 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 //import com.aventstack.extentreports.MediaModelProvider;
 import org.openqa.selenium.TakesScreenshot;
 import com.kms.katalon.core.annotation.Keyword
+
+import ru.yandex.qatools.ashot.AShot
+import ru.yandex.qatools.ashot.Screenshot
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies
+import javax.imageio.ImageIO;
+
 class LeedOnlineKeywords {
 
 
@@ -1724,7 +1722,7 @@ class LeedOnlineKeywords {
 		//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
 		//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
 		//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"
-		//		WebDriver driver=DriverFactory.getWebDriver()
+		//  	WebDriver driver=DriverFactory.getWebDriver()
 		//		TakesScreenshot screen =(TakesScreenshot) driver;
 		//		File src =screen.getScreenshotAs(OutputType.FILE);
 		//
@@ -1732,61 +1730,54 @@ class LeedOnlineKeywords {
 		//		FileUtils.copyFile(src,target);
 		//		return dest;
 		//		return target.getName()
-//
-//		Date d = new Date();
-//		String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-//		File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
-//		String screenShotsDirectory=RunConfiguration.getProjectDir()+"/ExtentReport/Chrome_Report/screenshots/"
-//		File targetFile = new File(screenShotsDirectory, imageName);
-//		println "screenShotsDirectory : "+screenShotsDirectory
-//		FileUtils.copyFile(screenshotFile, targetFile);
-//
-//		return targetFile.getName();
-		Date d = new Date();
-		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+		//
+		//		Date d = new Date();
+		//		String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+		//		File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
+		//		String screenShotsDirectory=RunConfiguration.getProjectDir()+"/ExtentReport/Chrome_Report/screenshots/"
+		//		File targetFile = new File(screenShotsDirectory, imageName);
+		//		println "screenShotsDirectory : "+screenShotsDirectory
+		//		FileUtils.copyFile(screenshotFile, targetFile);
+		//
+		//		return targetFile.getName();
 		
-		//String dest=WebUI.takeScreenshot("/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/" + screenshotFile)
-		//println "dest---->"+"/var/lib/jenkins/jobs/LEEDOnline_Development/htmlreports/Extent_20Report/"
-		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
+		Date d = new Date();
 		WebDriver driver=DriverFactory.getWebDriver()
+		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+		Screenshot myScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(100)).takeScreenshot(driver);
+		String dest = System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
 		File target = new File(dest);
 		FileUtils.copyFile(src,target);
-		return "screenshots/"+target.getName()
+		ImageIO.write(myScreenshot.getImage(),"PNG",target);
+		println "@@@@@@@@@@@@@@@@@@@@@@@@@@"+target.getName();
+		return "screenshots/"+target.getName();
+
+		//		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+
+		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
+
+		//		TakesScreenshot screen =(TakesScreenshot) driver;
+		//		File src =screen.getScreenshotAs(OutputType.FILE);
+		//		File target = new File(screenshotFile);
+		////		File target = new File(dest);
+		//		FileUtils.copyFile(src,target);
+		//		println "@@@@@@@@@@@@@@@@@@@@@@screenshots/"+target.getName()
+		//		return "screenshots/"+target.getName()
+
+//		Date d = new Date();
+//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+//		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+//		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
+//		WebDriver driver=DriverFactory.getWebDriver()
+//		TakesScreenshot screen =(TakesScreenshot) driver;
+//		File src =screen.getScreenshotAs(OutputType.FILE);
+//		File target = new File(dest);
+//		FileUtils.copyFile(src,target);
+//		return "screenshots/"+target.getName()
 	}
 
-	//	@Keyword
-	//	def public String takeScreenshot(ExtentTest loginfo) {
-	//		Date d = new Date();
-	//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-	//		String dest=WebUI.takeScreenshot(RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots/"+screenshotFile)
-	//		println "dest---->"+ RunConfiguration.getProjectDir() + "/ExtentReport/Chrome_Report/screenshots"
-	//		WebDriver driver=DriverFactory.getWebDriver()
-	//		TakesScreenshot screen =(TakesScreenshot) driver;
-	//		File src =screen.getScreenshotAs(OutputType.FILE);
-	//
-	//		File target = new File(dest);
-	//		FileUtils.copyFile(src,target);
-	//		//		return dest;
-	//		//		return screenshotFile
-	//		println "target name"+target.getName()
-	//		return target.getName()
-	//	}
-
-	//	@Keyword
-	//	public static String takeScreenshot(final RemoteWebDriver webDriver) {
-	//		Date d = new Date();
-	//		String imageName = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-	//		File screenshotFile = webDriver.getScreenshotAs(OutputType.FILE);
-	//		String screenShotsDirectory=System.getProperty("user.dir")+"/ExtentReport/Chrome_Report/screenshots"
-	//		File targetFile = new File(screenShotsDirectory, imageName);
-	//
-	//			FileUtils.copyFile(screenshotFile, targetFile);
-	//
-	//		return targetFile.getName();
-	//	}
 
 	@Keyword
 

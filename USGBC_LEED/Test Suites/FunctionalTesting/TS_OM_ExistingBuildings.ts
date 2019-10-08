@@ -148,4 +148,16 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_HeatIslandReduction</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>eb28a406-4b2a-4b21-8533-594564865294</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1883dee-a827-4fa7-9e78-0c170fe7154a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
