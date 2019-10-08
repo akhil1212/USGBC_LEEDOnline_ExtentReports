@@ -103,8 +103,8 @@ class loginStepDefinition {
 
 			WebUI.navigateToUrl(GlobalVariable.URL)
 
-			loginfo= extent.createTest(Feature.class,"Login to USGBC Leed Online Page");
-			loginfo=loginfo.createNode(Scenario.class,"User will login to leed online and navigate to credit page");
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId + "Login");
+			loginfo=loginfo.createNode(Scenario.class,GlobalVariable.currentTestCaseId+"login to leed online credit page");
 
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").pass("pass");
 
@@ -180,7 +180,7 @@ class loginStepDefinition {
 				println "######Error########" +e.stackTrace
 				println "####################Inside catch######################"
 
-				WebUI.delay(6)
+				WebUI.delay(60)
 				println "########--Completed waiting 60 sec's---########"
 				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
 //				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)

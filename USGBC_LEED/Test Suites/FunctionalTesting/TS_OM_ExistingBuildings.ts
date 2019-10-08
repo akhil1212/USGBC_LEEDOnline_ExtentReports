@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>874096a8-2989-440a-9ee1-a6e9cffd5056</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_FacilityMaintenanceandRenovationPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
