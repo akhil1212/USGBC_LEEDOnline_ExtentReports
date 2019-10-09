@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("H:\\Git Projects\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEED\\Reports\\20191008_183034\\FunctionalTesting\\TS_OM_ExistingBuildings\\20191008_183034\\execution.properties")
+RunConfiguration.setExecutionSettingFile("H:\\Git Projects\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEED\\Reports\\20191009_104436\\FunctionalTesting\\TS_OM_ExistingBuildings\\20191009_104436\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/FunctionalTesting/TS_OM_ExistingBuildings', suiteProperties, new File("H:\\Git Projects\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEED\\Reports\\20191008_183034\\FunctionalTesting\\TS_OM_ExistingBuildings\\20191008_183034\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/FunctionalTesting/TS_OM_ExistingBuildings', suiteProperties, new File("H:\\Git Projects\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEEDOnline_ExtentReports\\USGBC_LEED\\Reports\\20191009_104436\\FunctionalTesting\\TS_OM_ExistingBuildings\\20191009_104436\\testCaseBinding"))

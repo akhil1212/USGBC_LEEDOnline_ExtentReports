@@ -23,12 +23,6 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>efa78e92-992c-4400-9247-cff50d999316</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnhancedRefrigerantManagement</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7d34bc15-dc80-4917-8df8-2a3dfe4b1f33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -47,16 +41,16 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_FacilityMaintenanceandRenovationPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e373e217-b8b2-4f26-a5f7-19f24f5a89b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OM_ExistingBuildings/TC_RainwaterManagement</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3c487a9b-c4e7-4b7c-86dc-442ed83490c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e373e217-b8b2-4f26-a5f7-19f24f5a89b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_RainwaterManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>11af98ea-b0d3-4933-a63e-7234100a7093</guid>
@@ -71,13 +65,31 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_ProjectInformation</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>cbf49ea3-dfdd-4ce9-9138-a7409fe054f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Delay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2bbbcf62-496d-4e7a-8fd7-7f82869437ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_PurchasingPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cbf49ea3-dfdd-4ce9-9138-a7409fe054f1</guid>
+      <guid>88b787d3-8c85-4397-a5ec-70af835d8d99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnvironmentalTobaccoSmokeControl</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>471e0b23-e2d7-409d-a752-9d609ca506be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_SiteManagement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65574b6e-1bcc-471c-ae78-dc8d7cc586fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
@@ -89,22 +101,10 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaningPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>88b787d3-8c85-4397-a5ec-70af835d8d99</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnvironmentalTobaccoSmokeControl</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>26ce7bdb-038f-4264-a23f-86ce28db2c86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Innovation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>65574b6e-1bcc-471c-ae78-dc8d7cc586fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e1db3a8d-23fa-4116-ab61-9b678bf89dd6</guid>
@@ -125,12 +125,6 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_MinimumIndoorAirQuality</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>471e0b23-e2d7-409d-a752-9d609ca506be</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OM_ExistingBuildings/TC_SiteManagement</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bbcff6fb-ca06-48be-b4af-c504eb956919</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -143,9 +137,21 @@
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GridHarmonization</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>65aebab1-d617-476b-8938-f24bac29efc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC_Delay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>002a3673-1948-4e93-951b-3e16bb042903</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_HeatIslandReduction</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>efa78e92-992c-4400-9247-cff50d999316</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnhancedRefrigerantManagement</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -132,6 +132,5 @@
 	<classpathentry kind="lib" path="H:/Git Projects/USGBC_LEEDOnline_ExtentReports/USGBC_LEEDOnline_ExtentReports/USGBC_LEED/Drivers/pdfutil.jar"/>
 	<classpathentry kind="lib" path="H:/Git Projects/USGBC_LEEDOnline_ExtentReports/USGBC_LEEDOnline_ExtentReports/USGBC_LEED/Drivers/testng-6.9.10.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -97,19 +97,19 @@ class loginStepDefinition {
 			WebUI.maximizeWindow()
 
 			RemoteWebDriver driver = DriverFactory.getWebDriver()
-			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
-			//			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
+//			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
+			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 
 			WebUI.navigateToUrl(GlobalVariable.URL)
 
-			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId + "Login");
+			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
 			loginfo=loginfo.createNode(Scenario.class,GlobalVariable.currentTestCaseId+"login to leed online credit page");
 
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").pass("pass");
 
 			Assert.assertTrue(true);
-			loginfo.assignCategory(GlobalVariable.currentTestCaseId+"Login")
+			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
 			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
@@ -183,7 +183,7 @@ class loginStepDefinition {
 				WebUI.delay(60)
 				println "########--Completed waiting 60 sec's---########"
 				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
-//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
+				//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
 				WebUI.submit(btnObj)
 				println "########--Clicking the btn---########"
 			}
