@@ -104,7 +104,7 @@ class NewTestListener {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		
-		WebUI.closeBrowser()
+//		WebUI.closeBrowser()
 		extent.flush();
 		
 	}
