@@ -662,7 +662,7 @@ class LeedOnlineKeywords {
 				WebUI.delay(5)
 				WebUI.click(downloadXpath)
 				isFileExist(fileName)
-				WebUI.mouseOver(iFrame)
+				WebUI.mouseOver(fileName)
 				WebUI.switchToDefaultContent()
 				WebUI.delay(2)
 			}
@@ -1740,12 +1740,21 @@ class LeedOnlineKeywords {
 		//		FileUtils.copyFile(screenshotFile, targetFile);
 		//
 		//		return targetFile.getName();
+
+		String folderName
+		if(DriverFactory.getExecutedBrowser().getName() == "FIREFOX_DRIVER"){
+			folderName = "Firefox_Report"
+		}
+		else {
+			folderName = "Chrome_Report"
+		}
 		
 		Date d = new Date();
 		WebDriver driver=DriverFactory.getWebDriver()
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
 		Screenshot myScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(100)).takeScreenshot(driver);
-		String dest = System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile
+//		String dest = System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile
+		String dest = System.getProperty("user.dir") + "/ExtentReport/"+folderName+"/screenshots/" + screenshotFile
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
 		File target = new File(dest);
@@ -1766,16 +1775,16 @@ class LeedOnlineKeywords {
 		//		println "@@@@@@@@@@@@@@@@@@@@@@screenshots/"+target.getName()
 		//		return "screenshots/"+target.getName()
 
-//		Date d = new Date();
-//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
-//		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
-//		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
-//		WebDriver driver=DriverFactory.getWebDriver()
-//		TakesScreenshot screen =(TakesScreenshot) driver;
-//		File src =screen.getScreenshotAs(OutputType.FILE);
-//		File target = new File(dest);
-//		FileUtils.copyFile(src,target);
-//		return "screenshots/"+target.getName()
+		//		Date d = new Date();
+		//		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
+		//		String dest=WebUI.takeScreenshot(System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile)
+		//		println "dest---->"+ System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/"
+		//		WebDriver driver=DriverFactory.getWebDriver()
+		//		TakesScreenshot screen =(TakesScreenshot) driver;
+		//		File src =screen.getScreenshotAs(OutputType.FILE);
+		//		File target = new File(dest);
+		//		FileUtils.copyFile(src,target);
+		//		return "screenshots/"+target.getName()
 	}
 
 

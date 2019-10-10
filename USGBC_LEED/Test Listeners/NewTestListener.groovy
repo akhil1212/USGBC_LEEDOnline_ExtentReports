@@ -83,7 +83,7 @@ class NewTestListener {
 		htmlReporter1 = new ExtentHtmlReporter(System.getProperty("user.dir") + "/ExtentReport/"+folderName+"/TestReport.html");
 		
 		htmlReporter1.config().setDocumentTitle("Extent Report"); // Tile of report
-		htmlReporter1.config().setReportName("Functional Testing"); // Name of the report
+		htmlReporter1.config().setReportName("LEEDOnline v4.1"); // Name of the report
 		htmlReporter1.config().setTheme(Theme.DARK);
 
 		extent.attachReporter(htmlReporter1);
@@ -106,6 +106,8 @@ class NewTestListener {
 		
 //		WebUI.closeBrowser()
 		extent.flush();
+		
+//		WebUI.executeJavaScript("alert('This is an alert')", null)
 		
 	}
 }
