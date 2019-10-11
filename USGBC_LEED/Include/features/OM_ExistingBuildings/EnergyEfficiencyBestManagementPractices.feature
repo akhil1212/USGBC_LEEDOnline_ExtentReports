@@ -19,6 +19,7 @@ Feature: Energy Efficiency Best Management Practices Form - LEED v4.1 O+M: EB
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User uploads files to Add file button and verifies form is not saved as draft
     And User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete
+    And User sets the date field and verifies
     And User verifies form draft is saved automatically after 10 sec by entering the date field
     When User clicks on Save button
     And User can able to see the form got saved
