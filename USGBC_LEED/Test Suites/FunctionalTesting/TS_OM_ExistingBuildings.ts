@@ -61,7 +61,7 @@
    <testCaseLink>
       <guid>ed5b96f5-c247-459a-a88f-d055a7c0cd7d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_ProjectInformation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -139,7 +139,7 @@
    <testCaseLink>
       <guid>82012e59-5201-46e1-ba86-b6293485d25b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_LightPollutionReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>
