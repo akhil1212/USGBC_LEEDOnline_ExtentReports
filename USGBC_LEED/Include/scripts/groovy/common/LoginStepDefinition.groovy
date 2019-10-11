@@ -97,8 +97,8 @@ class loginStepDefinition {
 			WebUI.maximizeWindow()
 
 			RemoteWebDriver driver = DriverFactory.getWebDriver()
-			//			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
-			String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
+			String downloadPath = GlobalVariable.DownloadPath_Server+"/"+GlobalVariable.currentTestCaseId
+			//String downloadPath = GlobalVariable.DownloadPath_Local+"\\"+GlobalVariable.currentTestCaseId
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), downloadPath )
 
 			WebUI.navigateToUrl(GlobalVariable.URL)
