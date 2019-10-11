@@ -85,7 +85,7 @@
    <testCaseLink>
       <guid>471e0b23-e2d7-409d-a752-9d609ca506be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_SiteManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -97,13 +97,13 @@
    <testCaseLink>
       <guid>a12fcdc7-8749-4e72-a36c-da8aaa79fce3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaningPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26ce7bdb-038f-4264-a23f-86ce28db2c86</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Innovation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>edce1792-827f-4aca-a1fb-27cd873c43b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Purchasing</testCaseId>
    </testCaseLink>
    <testCaseLink>

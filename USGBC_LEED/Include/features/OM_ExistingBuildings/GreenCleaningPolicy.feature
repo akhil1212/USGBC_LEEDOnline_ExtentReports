@@ -42,9 +42,10 @@ Feature: Green Cleaning Policy Form - LEED v4.1 O+M: EB
   Examples:
   | formname                                         | ratingSystem | fileName1     | fileName      |
   | Green Cleaning Policy-InHouseGreenCleaningPolicy | O+M:EB       | 24MBfile1.doc | 102MBfile.pdf |
+  
   #Scenario-2
   @SmokeTest
-  Scenario Outline: Negative scenario for Green Cleaning Policy-InHouseGreenCleaningPolicy
+  Scenario Outline: Filling Green cleaning policy form for Certified Cleaning Service
     Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
