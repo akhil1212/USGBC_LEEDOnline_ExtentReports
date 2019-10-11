@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2d23ece4-d080-4655-aefd-b96eab57237e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaning</testCaseId>
    </testCaseLink>
    <testCaseLink>
