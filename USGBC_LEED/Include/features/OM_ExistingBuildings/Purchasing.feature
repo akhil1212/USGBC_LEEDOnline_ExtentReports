@@ -12,7 +12,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
   #Scenario-1
   @SmokeTest
   Scenario Outline: Filling Purchasing form for Ongoing consumables
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -38,6 +38,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
     And User clicks on save without entering the contents and verifies the error message
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname                      | ratingSystem | fileName1     | fileName      |
@@ -46,7 +47,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
   #Scenario-2
   @SmokeTest
   Scenario Outline: Filling Purchasing form for Building Products Materials
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -72,6 +73,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
     And User clicks on save without entering the contents and verifies the error message
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname                             | ratingSystem | fileName1     | fileName      |
@@ -80,7 +82,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
   #Scenario-3
   @SmokeTest
   Scenario Outline: Filling Purchasing form for Electric Equipments
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -107,6 +109,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
     And User clicks on save without entering the contents and verifies the error message
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname                      | ratingSystem | fileName1     | fileName      |
@@ -115,7 +118,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
   #Scenario-4
   @SmokeTest
   Scenario Outline: Filling Purchasing form for Food and Beverage
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -141,6 +144,7 @@ Feature: Purchasing Form - LEED v4.1 O+M: EB
     And User clicks on save without entering the contents and verifies the error message
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname                   | ratingSystem | fileName1     | fileName      |

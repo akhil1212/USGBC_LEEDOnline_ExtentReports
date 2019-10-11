@@ -12,7 +12,7 @@ Feature: Heat Island Reduction Form - LEED v4.1 O+M: EB
   #Scenario-1
   @SmokeTest
   Scenario Outline: Filling Heat Island Reduction form for Contributing nonroof measures
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -40,6 +40,7 @@ Feature: Heat Island Reduction Form - LEED v4.1 O+M: EB
     And User clicks on save without entering the contents and verifies the error message
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname              | ratingSystem | tableName                            | testData                         | isAddRow | tableName1                                | testData1                             | isAddRow1 | tableName2                         | testData2                      | isAddRow2 | fileName1     | fileName      |

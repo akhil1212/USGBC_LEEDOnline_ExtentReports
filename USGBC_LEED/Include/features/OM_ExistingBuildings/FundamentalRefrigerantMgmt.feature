@@ -12,7 +12,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
   #Scenario-1
   @SmokeTest
   Scenario Outline: Filling Fundamental Refrigerant Management form for noCfcRefrigerants
-  Given User clicks on project <ratingSystem> positiveFlow
+  Given User clicks on project <formname> and <ratingSystem>
   And User navigates to the credits page of the project
   And User should be on form <formname>
   And User verifies form version,credit name matches in scorecard and form page
@@ -35,6 +35,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
   And User deletes the uploaded files and verifies the files are deleted
   ##And User uploads a file which is greater than 100MB <fileName> and verifies the error message
   And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+  And User logout the form
   
   Examples:
   | formname                                               | ratingSystem | fileName1     | fileName      |
@@ -43,7 +44,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
   #Scenario-2
   @SmokeTest
   Scenario Outline: Filling Fundamental Refrigerant Management form for Comprehensive Phase-Out Plan
-  Given User clicks on project <ratingSystem> positiveFlow
+  Given User clicks on project <formname> and <ratingSystem>
   And User navigates to the credits page of the project
   And User should be on form <formname>
   And User verifies form version,credit name matches in scorecard and form page
@@ -71,6 +72,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
   And User clicks on save without entering the contents and verifies the error message
   ##And User uploads a file which is greater than 100MB <fileName> and verifies the error message
   And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+  And User logout the form
   
   Examples:
   | formname                                                   | ratingSystem | tableName                                             | testData                      | isAddRow | fileName1     | fileName      |
@@ -79,7 +81,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
   #Scenario-3
   @SmokeTest
   Scenario Outline: Filling Fundamental Refrigerant Management form for Economic Analysis
-    Given User clicks on project <ratingSystem> positiveFlow
+    Given User clicks on project <formname> and <ratingSystem>
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
@@ -108,6 +110,7 @@ Feature: Fundamental Refrigerant Management Form - LEED v4.1 O+M: EB
     And User deletes the uploaded files and verifies the files are deleted
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
+    And User logout the form
 
     Examples: 
       | formname                                              | ratingSystem | tableName                                             | testData                      | isAddRow | tableName1            | testData1        | isAddRow1 | fileName1     | fileName      |

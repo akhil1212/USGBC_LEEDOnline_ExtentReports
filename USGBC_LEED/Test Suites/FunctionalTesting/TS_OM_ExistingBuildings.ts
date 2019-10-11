@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2d23ece4-d080-4655-aefd-b96eab57237e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaning</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>874096a8-2989-440a-9ee1-a6e9cffd5056</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_FacilityMaintenanceandRenovationPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>e373e217-b8b2-4f26-a5f7-19f24f5a89b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_RainwaterManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>2bbbcf62-496d-4e7a-8fd7-7f82869437ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_PurchasingPolicy</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -127,7 +127,7 @@
    <testCaseLink>
       <guid>bbcff6fb-ca06-48be-b4af-c504eb956919</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -135,6 +135,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GridHarmonization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82012e59-5201-46e1-ba86-b6293485d25b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_LightPollutionReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>65aebab1-d617-476b-8938-f24bac29efc3</guid>
