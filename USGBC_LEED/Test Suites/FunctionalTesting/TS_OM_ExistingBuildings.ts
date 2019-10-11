@@ -103,7 +103,7 @@
    <testCaseLink>
       <guid>26ce7bdb-038f-4264-a23f-86ce28db2c86</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Innovation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -115,25 +115,25 @@
    <testCaseLink>
       <guid>edce1792-827f-4aca-a1fb-27cd873c43b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Purchasing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9974f974-ec22-4d4f-98a0-2742cf01af41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_MinimumIndoorAirQuality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bbcff6fb-ca06-48be-b4af-c504eb956919</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>994dd1c4-494c-4b40-8dcb-152038682687</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GridHarmonization</testCaseId>
    </testCaseLink>
    <testCaseLink>
