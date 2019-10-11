@@ -49,13 +49,13 @@
    <testCaseLink>
       <guid>e373e217-b8b2-4f26-a5f7-19f24f5a89b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_RainwaterManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>11af98ea-b0d3-4933-a63e-7234100a7093</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_IntegratedPestManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -127,7 +127,7 @@
    <testCaseLink>
       <guid>bbcff6fb-ca06-48be-b4af-c504eb956919</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
