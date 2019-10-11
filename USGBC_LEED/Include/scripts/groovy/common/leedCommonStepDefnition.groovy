@@ -97,8 +97,8 @@ class leedCommonStepDefnition {
 	String	prjName
 	String browserName = ""
 
-	@Given("User clicks on project (.*) positiveFlow")
-	public void user_clicks_on_Project_positiveFlow(String project) {
+	@Given("User clicks on project (.*) and (.*)")
+	public void user_clicks_on_Project(String formname,String project) {
 
 		try{
 			WebUI.callTestCase(findTestCase("Test Cases/TC_Login"), null)
@@ -107,18 +107,19 @@ class leedCommonStepDefnition {
 				prjName = GlobalVariable.O_M_EB
 			}
 
+			println "prjName---"+prjName
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
-			loginfo= extent.createTest(Feature.class,GlobalVariable.currentTestCaseId);
-			loginfo=loginfo.createNode(Scenario.class," leed online"+GlobalVariable.currentTestCaseId+"-positiveFlow");
+			loginfo= extent.createTest(Feature.class,formname);
+			loginfo=loginfo.createNode(Scenario.class," leed online form "+formname);
 
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for positiveFlow").pass("pass");
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project "+formname).pass("pass");
 			Assert.assertTrue(true);
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for positiveFlow").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project "+formname).fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -132,7 +133,7 @@ class leedCommonStepDefnition {
 			if (project == "O+M:EB"){
 				prjName = GlobalVariable.O_M_EB
 			}
-
+			println "prjName---"+prjName
 			TestObject projectName = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.projectName+prjName+"']")
 			WebUI.click(projectName)
 
@@ -223,10 +224,10 @@ class leedCommonStepDefnition {
 			WebUI.delay(5)
 
 			String stringToSplit = findTestData("Data Files/TD_FormElements").getValue("Form Name with option", rowNum)
-			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").pass("pass");
+			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -250,10 +251,10 @@ class leedCommonStepDefnition {
 
 			println "Is version v01 present "+isVersion
 
-			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").pass("pass");
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form version,credit name matches in scorecard and form page").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form version,credit name matches in scorecard and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}

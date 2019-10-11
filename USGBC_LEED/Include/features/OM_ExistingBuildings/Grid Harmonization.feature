@@ -19,9 +19,9 @@ Feature: Grid Harmonization Form - LEED v4.1 O+M: EB
     And User will select the Radio Button
     And User verifies form draft is saved automatically after 10 sec complete by selecting radio button
     And User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete
-    And User verifies Auto save after entering text box with number
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User uploads files to Add file button and verifies form is not saved as draft
+    And User verifies Auto save after entering text box with number
     When User clicks on Save button
     And User can able to see the form got saved
     And User verifies the revision icon present after saving the form

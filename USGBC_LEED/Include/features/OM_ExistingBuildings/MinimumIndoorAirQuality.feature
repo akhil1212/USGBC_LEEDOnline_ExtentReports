@@ -17,6 +17,7 @@ Feature: Minimum Indoor Air Quality Form - LEED v4.1 O+M: EB
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
     And User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete
+    And User checks the checkbox option
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User uploads files to Add file button and verifies form is not saved as draft
     When User clicks on Save button

@@ -87,7 +87,7 @@ Feature: Green Cleaning Form - LEED v4.1 O+M: EB
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
-    When User will select the Radio Button
+    And User will select the Radio Button
     And User verifies form draft is saved automatically after 10 sec complete by selecting radio button
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User uploads files to Add file button and verifies form is not saved as draft
@@ -121,7 +121,7 @@ Feature: Green Cleaning Form - LEED v4.1 O+M: EB
     And User navigates to the credits page of the project
     And User should be on form <formname>
     And User verifies form version,credit name matches in scorecard and form page
-    When User will select the Radio Button
+    And User will select the Radio Button
     And User verifies form draft is saved automatically after 10 sec complete by selecting radio button
     And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative
     And User uploads files to Add file button and verifies form is not saved as draft
