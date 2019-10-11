@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>42e6bb51-5d9c-42d3-8f4a-9b56c092a49b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>edce1792-827f-4aca-a1fb-27cd873c43b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Purchasing</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -133,13 +133,13 @@
    <testCaseLink>
       <guid>994dd1c4-494c-4b40-8dcb-152038682687</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GridHarmonization</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>82012e59-5201-46e1-ba86-b6293485d25b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_LightPollutionReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>
