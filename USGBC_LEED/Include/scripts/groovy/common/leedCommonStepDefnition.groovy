@@ -219,9 +219,9 @@ class leedCommonStepDefnition {
 				new LeedOnlineKeywords().markAsComplete(formName)
 			}
 
-			WebUI.delay(3)
-			scoreCardFormName = new LeedOnlineKeywords().navigateToForm(formName)
 			WebUI.delay(5)
+			scoreCardFormName = new LeedOnlineKeywords().navigateToForm(formName)
+			WebUI.delay(10)
 
 			String stringToSplit = findTestData("Data Files/TD_FormElements").getValue("Form Name with option", rowNum)
 			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").pass("pass");

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2d23ece4-d080-4655-aefd-b96eab57237e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_GreenCleaning</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -121,13 +121,13 @@
    <testCaseLink>
       <guid>9974f974-ec22-4d4f-98a0-2742cf01af41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_MinimumIndoorAirQuality</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bbcff6fb-ca06-48be-b4af-c504eb956919</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -139,7 +139,7 @@
    <testCaseLink>
       <guid>82012e59-5201-46e1-ba86-b6293485d25b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_LightPollutionReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>
