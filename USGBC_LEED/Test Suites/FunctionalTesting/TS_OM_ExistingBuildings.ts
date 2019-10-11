@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>42e6bb51-5d9c-42d3-8f4a-9b56c092a49b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>adf44f79-32e9-4e63-828e-9393f6c0a710</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_FundamentalRefregrantMgmt</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -55,13 +55,13 @@
    <testCaseLink>
       <guid>11af98ea-b0d3-4933-a63e-7234100a7093</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_IntegratedPestManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed5b96f5-c247-459a-a88f-d055a7c0cd7d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_ProjectInformation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>88b787d3-8c85-4397-a5ec-70af835d8d99</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_EnvironmentalTobaccoSmokeControl</testCaseId>
    </testCaseLink>
    <testCaseLink>
