@@ -194,7 +194,7 @@ class LeedOnlineKeywords {
 			WebUI.waitForElementAttributeValue(waitEnabled, 'class', 'tiny ui button', 20)
 			WebUI.delay(15)
 			WebUI.uploadFile(inputField, filePath)
-
+			WebUI.waitForElementAttributeValue(waitEnabled, 'class', 'tiny ui button', 20)
 		}
 
 		WebUI.switchToDefaultContent()
@@ -1748,12 +1748,12 @@ class LeedOnlineKeywords {
 		else {
 			folderName = "Chrome_Report"
 		}
-		
+
 		Date d = new Date();
 		WebDriver driver=DriverFactory.getWebDriver()
 		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_")+ ".png";
 		Screenshot myScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(100)).takeScreenshot(driver);
-//		String dest = System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile
+		//		String dest = System.getProperty("user.dir") + "/ExtentReport/Chrome_Report/screenshots/" + screenshotFile
 		String dest = System.getProperty("user.dir") + "/ExtentReport/"+folderName+"/screenshots/" + screenshotFile
 		TakesScreenshot screen =(TakesScreenshot) driver;
 		File src =screen.getScreenshotAs(OutputType.FILE);
