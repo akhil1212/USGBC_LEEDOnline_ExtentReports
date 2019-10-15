@@ -195,6 +195,7 @@ class LeedOnlineKeywords {
 			WebUI.delay(15)
 			WebUI.uploadFile(inputField, filePath)
 			WebUI.waitForElementAttributeValue(waitEnabled, 'class', 'tiny ui button', 20)
+			WebUI.delay(5)
 		}
 
 		WebUI.switchToDefaultContent()
@@ -590,7 +591,7 @@ class LeedOnlineKeywords {
 
 		WebUI.click(markAsComplete)
 
-		WebUI.delay(5)
+		WebUI.delay(15)
 	}
 
 
