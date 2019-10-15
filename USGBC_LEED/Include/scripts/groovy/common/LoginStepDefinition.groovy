@@ -112,7 +112,7 @@ class loginStepDefinition {
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User has to navigate to leed online home page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 
@@ -130,7 +130,7 @@ class loginStepDefinition {
 			WebUI.setText(passwordObj, GlobalVariable.Password)
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters the username and password").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -159,7 +159,7 @@ class loginStepDefinition {
 			WebUI.submit(loginButton)
 			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("When"), "User clicks on LOG IN button").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -180,7 +180,7 @@ class loginStepDefinition {
 				println "######Error########" +e.stackTrace
 				println "####################Inside catch######################"
 
-				WebUI.delay(60)
+				WebUI.delay(6)
 				println "########--Completed waiting 60 sec's---########"
 				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
 				//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
@@ -190,7 +190,7 @@ class loginStepDefinition {
 
 			loginfo.createNode(new GherkinKeyword("Then"), "User will be logged in successfully").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("then"), "User will be logged in successfully").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("then"), "User will be logged in successfully").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}

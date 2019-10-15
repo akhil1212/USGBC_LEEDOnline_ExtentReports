@@ -119,7 +119,7 @@ class leedCommonStepDefnition {
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project "+formname).fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project "+formname).fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -146,7 +146,7 @@ class leedCommonStepDefnition {
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for AutoSave").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -173,7 +173,7 @@ class leedCommonStepDefnition {
 			loginfo.assignCategory(GlobalVariable.currentTestCaseId)
 
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("Given"), "User clicks on project for Negative").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -186,7 +186,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User navigates to the credits page of the project").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -227,7 +227,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User should be on form").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -254,7 +254,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies form version,credit name matches in scorecard and form page").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies form version,credit name matches in scorecard and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form version,credit name matches in scorecard and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -283,7 +283,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("When"), "User uploads files to Add file button").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("When"), "User uploads files to Add file button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("When"), "User uploads files to Add file button").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -310,7 +310,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User Enters data to Narrative field and verifies").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User Enters data to Narrative field and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User Enters data to Narrative field and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -374,7 +374,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User will select the Radio Button").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User will select the Radio Button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User will select the Radio Button").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -396,7 +396,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -475,7 +475,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -495,7 +495,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -511,7 +511,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().enterDataToTable(table, data, isAddRow)
 			loginfo.createNode(new GherkinKeyword("And"), "User fills the table with data isAddRow and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User fills the table with data isAddRow and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User fills the table with data isAddRow and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -526,7 +526,7 @@ class leedCommonStepDefnition {
 			WebUI.delay(4)
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -543,7 +543,7 @@ class leedCommonStepDefnition {
 			WebUI.delay(6)
 			loginfo.createNode(new GherkinKeyword("And"), "User can able to see the form got saved").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User can able to see the form got saved").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User can able to see the form got saved").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -565,7 +565,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User downloads the uploaded files and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User downloads the uploaded files and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User downloads the uploaded files and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -586,7 +586,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User deletes the uploaded files and verifies the files are deleted").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User deletes the uploaded files and verifies the files are deleted").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User deletes the uploaded files and verifies the files are deleted").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -604,7 +604,7 @@ class leedCommonStepDefnition {
 			WebUI.forward()
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks the Complete icon to set status to Ready for Review").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks the Complete icon to set status to Ready for Review").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks the Complete icon to set status to Ready for Review").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -617,7 +617,7 @@ class leedCommonStepDefnition {
 
 			loginfo.createNode(new GherkinKeyword("And"), "User sets the date field and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User sets the date field and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User sets the date field and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -642,7 +642,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -671,7 +671,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User validates the date format").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User validates the date format").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User validates the date format").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -685,7 +685,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().click_pdf_Icon()
 			loginfo.createNode(new GherkinKeyword("And"), "User dowloads the generated pdf form").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User dowloads the generated pdf form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User dowloads the generated pdf form").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -700,7 +700,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().checkRevisionIcon()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the revision icon present after saving the form").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the revision icon present after saving the form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the revision icon present after saving the form").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -722,7 +722,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files from pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files from pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the uploaded files from pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -762,7 +762,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies text with pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies text with pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies text with pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -780,7 +780,7 @@ class leedCommonStepDefnition {
 			WebUI.verifyMatch(compare, "Found", false)
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the tables with pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the tables with pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the tables with pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -798,7 +798,7 @@ class leedCommonStepDefnition {
 
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the date with pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the date with pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the date with pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -819,7 +819,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the narrative from pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the narrative from pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the narrative from pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 
@@ -841,7 +841,7 @@ class leedCommonStepDefnition {
 			//			logger.log(LogStatus.PASS, "User has to navigate to leed online home page",browserName);
 			loginfo.createNode(new GherkinKeyword("And"), "User creating a category for Autosave").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User creating a category for Autosave").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User creating a category for Autosave").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -884,7 +884,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by filling the Narrative").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by filling the Narrative").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by filling the Narrative").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -920,7 +920,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -955,7 +955,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box with number").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box with number").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies Auto save after entering text box with number").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -980,7 +980,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec by entering the date field").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec by entering the date field").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec by entering the date field").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1004,7 +1004,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User will not make any changes in the form and verifies form is not saved as draft").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User will not make any changes in the form and verifies form is not saved as draft").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User will not make any changes in the form and verifies form is not saved as draft").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1036,7 +1036,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User uploads files to Add file button and verifies form is not saved as draft").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User uploads files to Add file button and verifies form is not saved as draft").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User uploads files to Add file button and verifies form is not saved as draft").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1129,7 +1129,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the checkbox option and verifies form draft is saved automatically after 10 sec complete").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1153,7 +1153,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by selecting radio button").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by selecting radio button").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete by selecting radio button").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1190,7 +1190,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies warning message of form saved as draft is present and draft not changed").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies warning message of form saved as draft is present and draft not changed").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies warning message of form saved as draft is present and draft not changed").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1216,7 +1216,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies clear draft,warning message is not present").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies clear draft,warning message is not present").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies clear draft,warning message is not present").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1232,7 +1232,7 @@ class leedCommonStepDefnition {
 			WebUI.delay(4)
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on clear draft and verifies the draft is not present").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks on clear draft and verifies the draft is not present").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks on clear draft and verifies the draft is not present").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1256,7 +1256,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button and deletes the uploaded files").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button and deletes the uploaded files").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button and deletes the uploaded files").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1281,7 +1281,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies draft saved automatically after filling the table").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies draft saved automatically after filling the table").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies draft saved automatically after filling the table").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1296,7 +1296,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().clickCancelWhileDeletingFile()
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on cancel while deleting the uploaded file and verifies the files are retained").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks on cancel while deleting the uploaded file and verifies the files are retained").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks on cancel while deleting the uploaded file and verifies the files are retained").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1312,7 +1312,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().clickSaveButton()
 			loginfo.createNode(new GherkinKeyword("And"), "User deletes the table rows table with data").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User deletes the table rows table with data").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User deletes the table rows table with data").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1370,7 +1370,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().navigateToForm(formName)
 			loginfo.createNode(new GherkinKeyword("And"), "User logout and login to the form and rating").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User logout and login to the form and rating").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User logout and login to the form and rating").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1399,7 +1399,7 @@ class leedCommonStepDefnition {
 				println "Key = " + entry.getKey() +	", Value = " + entry.getValue();
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of table").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of table").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of table").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1420,7 +1420,7 @@ class leedCommonStepDefnition {
 				println "Key = " + entry.getKey() +	", Value = " + entry.getValue();
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of textbox").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of textbox").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the units of textbox").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1432,7 +1432,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().changeUnitsType(unitType,formName,rating)
 			loginfo.createNode(new GherkinKeyword("And"), "User changes the unit type rating").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User changes the unit type rating").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User changes the unit type rating").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1462,7 +1462,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in table").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in table").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in table").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1489,7 +1489,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in textbox").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in textbox").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User checks the units are not same in textbox").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1501,7 +1501,7 @@ class leedCommonStepDefnition {
 			new LeedOnlineKeywords().changeUnitsType(unitType,formName,rating)
 			loginfo.createNode(new GherkinKeyword("And"), "User revert the unit type rating").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User revert the unit type rating").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User revert the unit type rating").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1525,7 +1525,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User selects option from dropdown and verifies").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User selects option from dropdown and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User selects option from dropdown and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1543,7 +1543,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies the dropdown value with pdf and form page").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies the dropdown value with pdf and form page").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies the dropdown value with pdf and form page").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1572,7 +1572,7 @@ class leedCommonStepDefnition {
 			WebUI.switchToDefaultContent()
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete after changing dropdown option").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete after changing dropdown option").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies form draft is saved automatically after 10 sec complete after changing dropdown option").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1582,7 +1582,7 @@ class leedCommonStepDefnition {
 		try{
 			loginfo.createNode(new GherkinKeyword("And"), "User Ends Autosave").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User Ends Autosave").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User Ends Autosave").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1601,7 +1601,7 @@ class leedCommonStepDefnition {
 		try{
 			loginfo.createNode(new GherkinKeyword("And"), "User Checking for Negative scenario").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User Checking for Negative scenario").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User Checking for Negative scenario").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1627,7 +1627,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file which is greater than 100MB and verifies the error message").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file which is greater than 100MB and verifies the error message").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file which is greater than 100MB and verifies the error message").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1662,7 +1662,7 @@ class leedCommonStepDefnition {
 			}
 			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file,clicks save button while uploading and verifies the error message").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file,clicks save button while uploading and verifies the error message").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User uploads a file,clicks save button while uploading and verifies the error message").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1681,7 +1681,7 @@ class leedCommonStepDefnition {
 			WebUI.delay(5)
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on save without entering the contents and verifies the error message").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User clicks on save without entering the contents and verifies the error message").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User clicks on save without entering the contents and verifies the error message").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1716,7 +1716,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the data more than 100 characters for text box and verifies").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters the data more than 100 characters for text box and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters the data more than 100 characters for text box and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 
@@ -1747,7 +1747,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User enters the data Zero for text box and verifies").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters the data Zero for text box and verifies").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters the data Zero for text box and verifies").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1784,7 +1784,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies the value present is not same").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies the value present is not same").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters data to text box with number and verifies the value present is not same").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1819,7 +1819,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User enters data with decimal value to text box with number and verifies the value present is not same").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User enters data with decimal value to text box with number and verifies the value present is not same").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User enters data with decimal value to text box with number and verifies the value present is not same").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}
@@ -1858,7 +1858,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User verifies Number formatting in text box with number").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User verifies Number formatting in text box with number").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User verifies Number formatting in text box with number").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 
@@ -1870,7 +1870,7 @@ class leedCommonStepDefnition {
 			loginfo.createNode(new GherkinKeyword("And"), "User Ends the Negative scenario").pass("pass");
 			Assert.assertTrue(true);
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User Ends the Negative scenario").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User Ends the Negative scenario").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 
@@ -1893,7 +1893,7 @@ class leedCommonStepDefnition {
 
 			loginfo.createNode(new GherkinKeyword("And"), "User logout the form").pass("pass");
 		} catch   (Exception e){
-			loginfo.createNode(new GherkinKeyword("And"), "User logout the form").fail("fail").addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
+			loginfo.createNode(new GherkinKeyword("And"), "User logout the form").fail("fail").error(e).addScreenCaptureFromPath(new LeedOnlineKeywords ().takeScreenshot());
 
 		}
 	}

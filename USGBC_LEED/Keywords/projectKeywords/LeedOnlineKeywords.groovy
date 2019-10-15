@@ -935,7 +935,7 @@ class LeedOnlineKeywords {
 
 		while (!file.exists()) {
 			println "#### delay time is "+i
-			if(i == 600){
+			if(i == 200){
 				println "Waited for 10 minutes, unable to download because of network failure/internet issue"
 
 				break
@@ -1816,4 +1816,27 @@ class LeedOnlineKeywords {
 	 GlobalVariable.scenarioName=sName
 	 println "##############"+sName  //GlobalVariable.scenarioName
 	 }*/
+	
+	@Keyword
+	def deletePreviousScreenshot(String ScreenshotPath){
+
+		File dir = new File(ScreenshotPath);
+		File[] dirContents = dir.listFiles();
+
+		println "#################"+ScreenshotPath
+		println dirContents.length
+		if (dirContents.length > 0) {
+			
+			println "#################"+dirContents.length
+			
+			for (int i = 0; i < dirContents.length; i++) {
+
+				dirContents[i].delete();
+
+			}
+
+		}
+
+		return false
+	}
 }

@@ -337,3 +337,9 @@ def static "projectKeywords.LeedOnlineKeywords.takeScreenshot"(
 def static "projectKeywords.LeedOnlineKeywords.click_pdf_Icon"() {
     (new projectKeywords.LeedOnlineKeywords()).click_pdf_Icon()
 }
+
+def static "projectKeywords.LeedOnlineKeywords.deletePreviousScreenshot"(
+    	String ScreenshotPath	) {
+    (new projectKeywords.LeedOnlineKeywords()).deletePreviousScreenshot(
+        	ScreenshotPath)
+}

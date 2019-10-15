@@ -16,5 +16,5 @@ import internal.GlobalVariable as GlobalVariable
 
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://leedonline-stg.usgbc.org')
+WebUI.navigateToUrl(GlobalVariable.URL)
 WebUI.delay(60)

@@ -80,6 +80,8 @@ class NewTestListener {
 			folderName = "Chrome_Report"
 		}
 		
+		new LeedOnlineKeywords().deletePreviousScreenshot(System.getProperty("user.dir") + "/ExtentReport/"+folderName+"/screenshots/")
+		WebUI.delay(15)
 		htmlReporter1 = new ExtentHtmlReporter(System.getProperty("user.dir") + "/ExtentReport/"+folderName+"/TestReport.html");
 		
 		htmlReporter1.config().setDocumentTitle("Extent Report"); // Tile of report
