@@ -145,13 +145,13 @@
    <testCaseLink>
       <guid>65aebab1-d617-476b-8938-f24bac29efc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Delay</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>002a3673-1948-4e93-951b-3e16bb042903</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_HeatIslandReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>

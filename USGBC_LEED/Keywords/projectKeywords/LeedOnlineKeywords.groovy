@@ -1816,7 +1816,7 @@ class LeedOnlineKeywords {
 	 GlobalVariable.scenarioName=sName
 	 println "##############"+sName  //GlobalVariable.scenarioName
 	 }*/
-	
+
 	@Keyword
 	def deletePreviousScreenshot(String ScreenshotPath){
 
@@ -1826,9 +1826,9 @@ class LeedOnlineKeywords {
 		println "#################"+ScreenshotPath
 		println dirContents.length
 		if (dirContents.length > 0) {
-			
+
 			println "#################"+dirContents.length
-			
+
 			for (int i = 0; i < dirContents.length; i++) {
 
 				dirContents[i].delete();
