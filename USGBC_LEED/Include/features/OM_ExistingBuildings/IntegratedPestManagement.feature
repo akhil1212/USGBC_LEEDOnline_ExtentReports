@@ -35,7 +35,7 @@ Feature: Integrated Pest Management Form - LEED v4.1 O+M: EB
     And User clicks on clear draft and verifies the draft is not present
     And User deletes the uploaded files and verifies the files are deleted
     And User clicks on save without entering the contents and verifies the error message
-    ##And User uploads a file which is greater than 100MB <fileName> and verifies the error message
+    ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
     And User logout the form
 
@@ -70,6 +70,8 @@ Feature: Integrated Pest Management Form - LEED v4.1 O+M: EB
     And User clicks on clear draft and verifies the draft is not present
     And User deletes the uploaded files and verifies the files are deleted
     And User clicks on save without entering the contents and verifies the error message
+    And User enters the data Zero for text box and verifies
+		And User enters the data more than 100 characters for text box and verifies
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
     And User logout the form

@@ -56,6 +56,10 @@ Feature: Enhanced Refrigerant Management Form - LEED v4.1 O+M: EB
     And User uploads files to Add file button and verifies form is not saved as draft
     And User fills the table <tableName> with data <testData> isAddRow <isAddRow> and verifies
     And User verifies draft saved automatically after filling the table
+     And User checks the units of table
+		And User changes the unit type <formname> rating <ratingSystem>
+		And User checks the units are not same in table
+		And User revert the unit type <formname> rating <ratingSystem>
     When User clicks on Save button
     And User can able to see the form got saved
     And User verifies the revision icon present after saving the form
@@ -71,6 +75,7 @@ Feature: Enhanced Refrigerant Management Form - LEED v4.1 O+M: EB
     And User clicks on clear draft and verifies the draft is not present
     And User deletes the uploaded files and verifies the files are deleted
     And User clicks on save without entering the contents and verifies the error message
+    And User deletes the table rows table <tableName> with data <testData>
     ###And User uploads a file which is greater than 100MB <fileName> and verifies the error message
     And User uploads a file <fileName1>,clicks save button while uploading and verifies the error message
     And User logout the form
