@@ -186,6 +186,8 @@ class loginStepDefinition {
 				//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
 				WebUI.submit(btnObj)
 				println "########--Clicking the btn---########"
+				TestObject leed = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.leed)
+				boolean elementPresent=WebUI.verifyElementPresent(leed, 30)
 			}
 
 			loginfo.createNode(new GherkinKeyword("Then"), "User will be logged in successfully").pass("pass");
