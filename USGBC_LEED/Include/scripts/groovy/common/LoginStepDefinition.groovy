@@ -180,7 +180,7 @@ class loginStepDefinition {
 				println "######Error########" +e.stackTrace
 				println "####################Inside catch######################"
 
-				WebUI.delay(6)
+				WebUI.delay(60)
 				println "########--Completed waiting 60 sec's---########"
 				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButtondev)
 				//				TestObject btnObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.loginButton)
