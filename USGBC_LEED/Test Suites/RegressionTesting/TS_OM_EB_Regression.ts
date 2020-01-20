@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>a2ff611a-611c-49b0-947d-37c58806a18c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_SiteManagement</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>92a0975b-9e8b-4f08-aa53-8f5f865fc189</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_Innovation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
