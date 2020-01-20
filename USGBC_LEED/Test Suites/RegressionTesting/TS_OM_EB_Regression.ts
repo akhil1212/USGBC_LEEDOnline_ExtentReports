@@ -37,7 +37,13 @@
    <testCaseLink>
       <guid>ae9b900e-99e5-4605-976c-f19f440c9435</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_ProjectInformation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92a0975b-9e8b-4f08-aa53-8f5f865fc189</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OM_ExistingBuildings/TC_Innovation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

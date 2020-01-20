@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test 4.1 OM EB'</initValue>
+      <initValue>'4.1 OM EB'</initValue>
       <name>O_M_EB</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
