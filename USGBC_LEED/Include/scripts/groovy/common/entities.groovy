@@ -166,6 +166,6 @@ public class entities {
 	 */
 
 	static String account = "//li[@id='my-account']/div"
-	static String signOut = "//li[@id='my-account']/div//li[5]"
+	static String signOut = "//li[@id='my-account']/div//li[4]"
 
 }

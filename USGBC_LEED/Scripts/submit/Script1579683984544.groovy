@@ -19,9 +19,9 @@ import internal.GlobalVariable as GlobalVariable
 import projectKeywords.LeedOnlineKeywords
 
 WebUI.openBrowser("");
+WebUI.maximizeWindow();
+WebUI.navigateToUrl("https://leedonline-dev.usgbc.org/Form/simpleform?__creditId=EBCRPI101L-1000148269&__creditShortId=PI101&creditHash=aa3caa46ca078a03e0250eb5483ad84e&projectId=1000148269")
 
-//WebUI.navigateToUrl("https://leedonline-dev.usgbc.org/form/simpleForm?__creditId=EBCRSS118L-1000148269&__creditShortId=SS118&creditHash=bfc96c2b3fb49d380e071d39c9448b54&projectId=1000148269")
-WebUI.navigateToUrl("https://leedonline-dev.usgbc.org/form/simpleForm?__creditId=EBCRPI101L-1000148269&__creditShortId=PI101&creditHash=aa3caa46ca078a03e0250eb5483ad84e&projectId=1000148269")
 TestObject account = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.accountdev)
 TestObject userNameObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.userName)
 TestObject passwordObj = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.password)
@@ -38,16 +38,27 @@ TestObject loginButton = new TestObject().addProperty('xpath',ConditionType.EQUA
 WebUI.submit(loginButton)
 WebUI.delay(5)
 
-	TestObject saveButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.saveButton,true)
-//	TestObject saveButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,"/html/body/div[2]/div[6]/button",true)
-		TestObject iFrame = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.formIframe,true)
-		WebUI.switchToFrame(iFrame, 2)
-		WebUI.comment("before click")
-		WebUI.click(saveButton)
-		WebUI.comment("After click")
-		WebUI.switchToDefaultContent()
-//		new LeedOnlineKeywords().clickSaveButton()	
-		WebUI.verifyTextPresent("Please fix the highlighted errors.", false)
-		//WebUI.verifyTextPresent("Form data saved successfully.", false)
+//	TestObject saveButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.saveButton,true)
+////	TestObject saveButton = new TestObject().addProperty('xpath',ConditionType.EQUALS,"/html/body/div[2]/div[6]/button",true)
+//		TestObject iFrame = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.formIframe,true)
+//		WebUI.switchToFrame(iFrame, 2)
+//		WebUI.comment("before click")
+//		WebUI.click(saveButton)
+//		WebUI.comment("After click")
+//		WebUI.switchToDefaultContent()
+////		new LeedOnlineKeywords().clickSaveButton()	
+//		WebUI.verifyTextPresent("Please fix the highlighted errors.", false)
+////		WebUI.verifyTextPresent("Form data saved successfully.", false)
 
+		TestObject acc=new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.account,true)
+		
+					println "################################ Before Clicking Account"
+					WebUI.click(acc)
+					println "################################ After Clicking Account"
+		
+					TestObject signOut=new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.signOut,true)
+					println "################################ Before Clicking Signout"
+					WebUI.click(signOut)
+					println "################################ After Clicking Signout"
+					WebUI.delay(2)
 WebUI.closeBrowser()
