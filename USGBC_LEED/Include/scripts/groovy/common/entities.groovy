@@ -112,7 +112,7 @@ public class entities {
 	static String tableTextPrefix = "(//label[contains(text(),'"
 	static String tableTextSuffix = "')]/following::table[1]//tr"
 
-	static String saveButton = "//button[@class='ui primary button']"
+	static String saveButton = "//*[@id='credit-form']/div/button" //"//button[@class='ui primary button']" 
 
 	static String yesButton = "//button[@class='confirm-yes mini ui blue button']"
 

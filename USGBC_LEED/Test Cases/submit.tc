@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>submit</name>
+   <tag></tag>
+   <comment>before click
+After click</comment>
+   <testCaseGuid>2b8bc9ee-db1e-4475-85ef-0a97529b83e0</testCaseGuid>
+</TestCaseEntity>

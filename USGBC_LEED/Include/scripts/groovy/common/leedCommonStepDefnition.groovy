@@ -523,6 +523,7 @@ class leedCommonStepDefnition {
 	public void User_clicks_on_Save_button() {
 		try{
 			new LeedOnlineKeywords().clickSaveButton()
+			WebUI.comment("Clicked on save button");
 			WebUI.delay(4)
 			loginfo.createNode(new GherkinKeyword("And"), "User clicks on Save button").pass("pass");
 		} catch   (Exception e){
