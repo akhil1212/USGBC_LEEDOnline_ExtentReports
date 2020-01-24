@@ -61,7 +61,7 @@
    <testCaseLink>
       <guid>13dcbcfd-f191-41aa-bb55-083cbf1cc35e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_FundamentalRefregrantMgmt</testCaseId>
    </testCaseLink>
    <testCaseLink>
