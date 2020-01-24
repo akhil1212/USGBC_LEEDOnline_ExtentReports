@@ -1445,12 +1445,14 @@ class LeedOnlineKeywords {
 			TestObject unitsIP = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.Units_IP,true)
 			println "##################### Before Units_IP clicked "
 			WebUI.click(unitsIP)
+			WebUI.delay(20);
 			println "##################### After Units_IP clicked "
 		}
 		else if(unitType=="SI"){
 			TestObject unitsSI = new TestObject().addProperty('xpath',ConditionType.EQUALS,entities.Units_SI,true)
 			println "##################### Before Units_SI clicked "
 			WebUI.click(unitsSI)
+			WebUI.delay(20);
 			println "##################### After Units_SI clicked "
 		}
 		else{
