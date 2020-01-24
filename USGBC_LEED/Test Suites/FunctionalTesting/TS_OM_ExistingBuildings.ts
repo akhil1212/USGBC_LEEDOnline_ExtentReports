@@ -151,7 +151,7 @@
    <testCaseLink>
       <guid>002a3673-1948-4e93-951b-3e16bb042903</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OM_ExistingBuildings/TC_HeatIslandReduction</testCaseId>
    </testCaseLink>
    <testCaseLink>
